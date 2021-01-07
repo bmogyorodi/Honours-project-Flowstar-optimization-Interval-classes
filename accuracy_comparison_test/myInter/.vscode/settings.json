@@ -1,0 +1,33 @@
+{
+    "files.associations": {
+        "cctype": "cpp",
+        "cmath": "cpp",
+        "cstdarg": "cpp",
+        "cstddef": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "cstring": "cpp",
+        "cwchar": "cpp",
+        "strstream": "cpp",
+        "*.tcc": "cpp",
+        "vector": "cpp",
+        "exception": "cpp",
+        "initializer_list": "cpp",
+        "iomanip": "cpp",
+        "iosfwd": "cpp",
+        "iostream": "cpp",
+        "istream": "cpp",
+        "new": "cpp",
+        "ostream": "cpp",
+        "sstream": "cpp",
+        "stdexcept": "cpp",
+        "cinttypes": "cpp",
+        "cstdint": "cpp",
+        "type_traits": "cpp",
+        "typeindex": "cpp",
+        "utility": "cpp",
+        "__config": "cpp",
+        "__nullptr": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}

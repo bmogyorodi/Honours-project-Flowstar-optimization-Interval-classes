@@ -1,0 +1,56 @@
+original version runtime results:
+Overall duration:1646
+Additions: 0.0823 msec/operation
+Overall duration:1697
+Subtraction: 0.08485 msec/operation
+Overall duration:4141
+Multiplication: 0.20705 msec/operation
+Overall duration:1037
+Divisions: 0.05185 msec/operation
+Overall duration:124375
+Sines: 6.21875 msec/operation
+Overall duration:70698
+Cosines: 3.5349 msec/operation
+
+otherInter version runtime results:
+Overall duration:26712
+Additions: 1.33561 msec/operation
+Overall duration:26689
+Subtraction: 1.33446 msec/operation
+Overall duration:26518
+Multiplication: 1.32591 msec/operation
+Overall duration:29163
+Divisions: 1.45814 msec/operation
+Overall duration:45098
+Sines: 4.50981 msec/operation
+Overall duration:53908
+Cosines: 5.39081 msec/operation
+
+myInter version runtime results:
+Overall duration:26908
+Additions: 1.34541 msec/operation
+Overall duration:28083
+Subtraction: 1.40416 msec/operation
+Overall duration:26519
+Multiplication: 1.32596 msec/operation
+Overall duration:26079
+Divisions: 1.30396 msec/operation
+Overall duration:46855
+Sines: 4.68551 msec/operation
+Overall duration:55198
+Cosines: 5.51981 msec/operation
+
+sse_test version runtime results:
+Overall duration:26246
+Additions: 1.31231 msec/operation
+Overall duration:25861
+Subtraction: 1.29306 msec/operation
+Overall duration:26197
+Multiplication: 1.30986 msec/operation
+Overall duration:25896
+Divisions: 1.29481 msec/operation
+Overall duration:44527
+Sines: 4.45271 msec/operation
+Overall duration:52700
+Cosines: 5.27001 msec/operation
+

@@ -1,0 +1,1206 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 13.75      0.06     0.06  5823621     0.00     0.00  std::_List_base<flowstar::Monomial, std::allocator<flowstar::Monomial> >::_M_clear()
+ 10.00      0.10     0.04   936079     0.00     0.00  yylex()
+ 10.00      0.14     0.04   521808     0.00     0.00  std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >::sort()
+  7.50      0.17     0.03   913164     0.00     0.00  flowstar::HornerForm::HornerForm(flowstar::HornerForm const&)
+  7.50      0.20     0.03     2400     0.01     0.07  flowstar::Polynomial::toHornerForm(flowstar::HornerForm&) const
+  6.25      0.22     0.03 10070327     0.00     0.00  flowstar::Monomial::~Monomial()
+  6.25      0.25     0.03  4811823     0.00     0.00  flowstar::Monomial::operator<(flowstar::Monomial const&) const
+  5.00      0.27     0.02  4658723     0.00     0.00  flowstar::Interval::operator=(flowstar::Interval const&)
+  5.00      0.29     0.02  3658734     0.00     0.00  flowstar::Monomial::operator=(flowstar::Monomial const&)
+  2.50      0.30     0.01 16156231     0.00     0.00  flowstar::Interval::~Interval()
+  2.50      0.31     0.01  9849076     0.00     0.00  flowstar::Monomial::Monomial(flowstar::Monomial const&)
+  2.50      0.32     0.01  1134371     0.00     0.00  flowstar::Interval::operator*=(flowstar::Interval const&)
+  2.50      0.33     0.01   915564     0.00     0.00  flowstar::HornerForm::~HornerForm()
+  2.50      0.34     0.01   399442     0.00     0.00  flowstar::Polynomial::operator+=(flowstar::Polynomial const&)
+  2.50      0.35     0.01   391356     0.00     0.00  void std::vector<flowstar::HornerForm, std::allocator<flowstar::HornerForm> >::_M_realloc_insert<flowstar::HornerForm const&>(__gnu_cxx::__normal_iterator<flowstar::HornerForm*, std::vector<flowstar::HornerForm, std::allocator<flowstar::HornerForm> > >, flowstar::HornerForm const&)
+  2.50      0.36     0.01   313162     0.00     0.00  flowstar::Polynomial::~Polynomial()
+  2.50      0.37     0.01   149752     0.00     0.00  std::_Rb_tree<std::string, std::pair<std::string const, int>, std::_Select1st<std::pair<std::string const, int> >, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::find(std::string const&) const
+  2.50      0.38     0.01   147644     0.00     0.00  flowstar::Monomial::Monomial(flowstar::Interval const&, std::vector<int, std::allocator<int> > const&)
+  2.50      0.39     0.01                             yyparse()
+  1.25      0.39     0.01    73607     0.00     0.00  flowstar::Monomial::Monomial(flowstar::Interval const&, int)
+  1.25      0.40     0.01                             flowstar::Monomial::operator==(flowstar::Monomial const&) const
+  1.25      0.40     0.01                             std::_List_base<flowstar::Interval, std::allocator<flowstar::Interval> >::_M_clear()
+  0.00      0.40     0.00 14195210     0.00     0.00  flowstar::Interval::Interval(flowstar::Interval const&)
+  0.00      0.40     0.00  1651102     0.00     0.00  std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >::list(std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> > const&)
+  0.00      0.40     0.00  1633315     0.00     0.00  flowstar::Interval::Interval()
+  0.00      0.40     0.00   818988     0.00     0.00  flowstar::Polynomial::ctrunc_normal(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, int)
+  0.00      0.40     0.00   814318     0.00     0.00  std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >::merge(std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >&&)
+  0.00      0.40     0.00   693370     0.00     0.00  flowstar::Interval::subseteq(flowstar::Interval const&) const
+  0.00      0.40     0.00   590576     0.00     0.00  void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&)
+  0.00      0.40     0.00   531408     0.00     0.00  flowstar::Interval::operator+=(flowstar::Interval const&)
+  0.00      0.40     0.00   524208     0.00     0.00  flowstar::Interval::set(double, double)
+  0.00      0.40     0.00   391356     0.00     0.00  void std::vector<std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >, std::allocator<std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> > > >::_M_realloc_insert<std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> > const&>(__gnu_cxx::__normal_iterator<std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >*, std::vector<std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >, std::allocator<std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> > > > >, std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> > const&)
+  0.00      0.40     0.00   319535     0.00     0.00  flowstar::Polynomial::operator*=(flowstar::Polynomial const&)
+  0.00      0.40     0.00   319535     0.00     0.00  flowstar::Monomial::operator*=(flowstar::Monomial const&)
+  0.00      0.40     0.00   149754     0.00     0.00  parseUnivariatePolynomial(std::string const&)
+  0.00      0.40     0.00   148844     0.00     0.00  flowstar::ContinuousReachability::getIDForTMVar(std::string const&) const
+  0.00      0.40     0.00   147678     0.00     0.00  flowstar::Interval::Interval(double)
+  0.00      0.40     0.00   147644     0.00     0.00  flowstar::Polynomial::Polynomial(flowstar::Monomial const&)
+  0.00      0.40     0.00   101812     0.00     0.00  flowstar::Polynomial::Polynomial()
+  0.00      0.40     0.00    97120     0.00     0.00  flowstar::Interval::operator+(flowstar::Interval const&) const
+  0.00      0.40     0.00    91911     0.00     0.00  flowstar::Polynomial::pow(flowstar::Polynomial&, int) const
+  0.00      0.40     0.00    75708     0.00     0.00  flowstar::Interval::Interval(double, double)
+  0.00      0.40     0.00    73607     0.00     0.00  flowstar::Polynomial::Polynomial(flowstar::Interval const&, int)
+  0.00      0.40     0.00    14400     0.00     0.00  flowstar::Interval::midpoint() const
+  0.00      0.40     0.00    13501     0.00     0.00  flowstar::Polynomial::~Polynomial()
+  0.00      0.40     0.00    13500     0.00     0.00  flowstar::Polynomial::clear()
+  0.00      0.40     0.00    11700     0.00     0.00  flowstar::TaylorModel::~TaylorModel()
+  0.00      0.40     0.00     9900     0.00     0.00  flowstar::TaylorModel::TaylorModel()
+  0.00      0.40     0.00     9600     0.00     0.00  flowstar::HornerForm::intEval(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) const
+  0.00      0.40     0.00     7200     0.00     0.00  flowstar::Polynomial::mul_assign(flowstar::Interval const&)
+  0.00      0.40     0.00     7200     0.00     0.00  flowstar::TaylorModel::add_assign(flowstar::TaylorModel const&)
+  0.00      0.40     0.00     7200     0.00     0.00  flowstar::Polynomial::mul(flowstar::Polynomial&, flowstar::Interval const&) const
+  0.00      0.40     0.00     7200     0.00     0.00  flowstar::TaylorModel::mul(flowstar::TaylorModel&, flowstar::Interval const&) const
+  0.00      0.40     0.00     7200     0.00     0.00  flowstar::Interval::operator*(flowstar::Interval const&) const
+  0.00      0.40     0.00     3600     0.00     0.00  flowstar::Polynomial::Polynomial(flowstar::Polynomial const&)
+  0.00      0.40     0.00     3000     0.00     0.00  void std::vector<double, std::allocator<double> >::_M_realloc_insert<double const&>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, double const&)
+  0.00      0.40     0.00     2400     0.00     0.08  flowstar::rho(flowstar::TaylorModelVec const&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&)
+  0.00      0.40     0.00     2400     0.00     0.07  flowstar::Polynomial::intEval(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) const
+  0.00      0.40     0.00     2400     0.00     0.07  flowstar::TaylorModel::intEval(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) const
+  0.00      0.40     0.00     2400     0.00     0.00  flowstar::Interval::sup(flowstar::Interval&) const
+  0.00      0.40     0.00     1800     0.00     0.00  flowstar::TaylorModel::TaylorModel(flowstar::TaylorModel const&)
+  0.00      0.40     0.00      905     0.00     0.00  flowstar::ContinuousReachability::getIDForStateVar(std::string const&) const
+  0.00      0.40     0.00      900     0.00     0.00  flowstar::Polynomial::operator=(flowstar::Polynomial const&)
+  0.00      0.40     0.00      900     0.00     0.00  flowstar::TaylorModel::TaylorModel(flowstar::Polynomial const&, flowstar::Interval const&)
+  0.00      0.40     0.00      900     0.00     0.00  flowstar::TaylorModel::operator=(flowstar::TaylorModel const&)
+  0.00      0.40     0.00      900     0.00     0.00  void std::vector<flowstar::TaylorModel, std::allocator<flowstar::TaylorModel> >::_M_realloc_insert<flowstar::TaylorModel const&>(__gnu_cxx::__normal_iterator<flowstar::TaylorModel*, std::vector<flowstar::TaylorModel, std::allocator<flowstar::TaylorModel> > >, flowstar::TaylorModel const&)
+  0.00      0.40     0.00      683     0.00     0.00  yy_get_next_buffer()
+  0.00      0.40     0.00      605     0.00     0.00  flowstar::TaylorModelVec::~TaylorModelVec()
+  0.00      0.40     0.00      304     0.00     0.00  flowstar::TaylorModelVec::TaylorModelVec()
+  0.00      0.40     0.00      300     0.00     0.00  flowstar::TaylorModelVec::TaylorModelVec(flowstar::TaylorModelVec const&)
+  0.00      0.40     0.00      300     0.00     0.00  std::vector<flowstar::TaylorModel, std::allocator<flowstar::TaylorModel> >::vector(std::vector<flowstar::TaylorModel, std::allocator<flowstar::TaylorModel> > const&)
+  0.00      0.40     0.00       88     0.00     0.00  flowstar::Matrix::get(int, int) const
+  0.00      0.40     0.00       88     0.00     0.00  flowstar::RowVector::get(int) const
+  0.00      0.40     0.00       36     0.00     0.00  flowstar::Matrix::set(double, int, int)
+  0.00      0.40     0.00       25     0.00     0.00  void std::vector<flowstar::Interval, std::allocator<flowstar::Interval> >::_M_realloc_insert<flowstar::Interval const&>(__gnu_cxx::__normal_iterator<flowstar::Interval*, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > >, flowstar::Interval const&)
+  0.00      0.40     0.00       23     0.00     0.00  flowstar::LinearConstraint::~LinearConstraint()
+  0.00      0.40     0.00       18     0.00     0.00  flowstar::RowVector::~RowVector()
+  0.00      0.40     0.00       17     0.00     0.00  flowstar::RowVector::RowVector(flowstar::RowVector const&)
+  0.00      0.40     0.00       15     0.00     0.00  flowstar::LinearConstraint::LinearConstraint(flowstar::LinearConstraint const&)
+  0.00      0.40     0.00       15     0.00     0.00  std::_Rb_tree<std::string, std::pair<std::string const, int>, std::_Select1st<std::pair<std::string const, int> >, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::_M_erase(std::_Rb_tree_node<std::pair<std::string const, int> >*)
+  0.00      0.40     0.00       12     0.00     0.00  void std::vector<std::string, std::allocator<std::string> >::_M_realloc_insert<std::string const&>(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, std::string const&)
+  0.00      0.40     0.00       10     0.00     0.00  std::_Rb_tree<std::string, std::pair<std::string const, int>, std::_Select1st<std::pair<std::string const, int> >, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::find(std::string const&)
+  0.00      0.40     0.00        8     0.00     0.00  flowstar::LinearConstraint::LinearConstraint(std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, flowstar::Interval const&)
+  0.00      0.40     0.00        8     0.00     0.00  flowstar::Matrix::row(flowstar::RowVector&, int) const
+  0.00      0.40     0.00        8     0.00     0.00  flowstar::ColVector::get(int) const
+  0.00      0.40     0.00        7     0.00     0.00  flowstar::compareFactor(flowstar::FactorTab const&, flowstar::FactorTab const&)
+  0.00      0.40     0.00        7     0.00     0.00  flowstar::compute_int_mat2_pow(std::vector<flowstar::iMatrix2, std::allocator<flowstar::iMatrix2> >&, flowstar::iMatrix2 const&, int)
+  0.00      0.40     0.00        7     0.00     0.00  std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::operator[](std::string const&)
+  0.00      0.40     0.00        5     0.00     0.00  flowstar::iMatrix::iMatrix()
+  0.00      0.40     0.00        5     0.00     0.00  flowstar::iMatrix::~iMatrix()
+  0.00      0.40     0.00        5     0.00     0.00  flowstar::RowVector::operator=(flowstar::RowVector const&)
+  0.00      0.40     0.00        4     0.00     0.00  flowstar::HybridReachability::declareTMVar(std::string const&)
+  0.00      0.40     0.00        4     0.00     0.00  flowstar::ContinuousReachability::declareTMVar(std::string const&)
+  0.00      0.40     0.00        4     0.00     0.00  flowstar::upMatrix::upMatrix()
+  0.00      0.40     0.00        4     0.00     0.00  flowstar::upMatrix::~upMatrix()
+  0.00      0.40     0.00        4     0.00     0.00  void std::vector<flowstar::LinearConstraint, std::allocator<flowstar::LinearConstraint> >::_M_realloc_insert<flowstar::LinearConstraint const&>(__gnu_cxx::__normal_iterator<flowstar::LinearConstraint*, std::vector<flowstar::LinearConstraint, std::allocator<flowstar::LinearConstraint> > >, flowstar::LinearConstraint const&)
+  0.00      0.40     0.00        4     0.00     0.00  void std::vector<flowstar::RowVector, std::allocator<flowstar::RowVector> >::_M_realloc_insert<flowstar::RowVector const&>(__gnu_cxx::__normal_iterator<flowstar::RowVector*, std::vector<flowstar::RowVector, std::allocator<flowstar::RowVector> > >, flowstar::RowVector const&)
+  0.00      0.40     0.00        4     0.00     0.00  std::vector<std::string, std::allocator<std::string> >::~vector()
+  0.00      0.40     0.00        4     0.00     0.00  std::vector<int, std::allocator<int> >::push_back(int const&)
+  0.00      0.40     0.00        4     0.00     0.00  std::_Rb_tree<std::string, std::pair<std::string const, int>, std::_Select1st<std::pair<std::string const, int> >, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::_M_get_insert_unique_pos(std::string const&)
+  0.00      0.40     0.00        3     0.00     0.00  flowstar::HybridReachability::declareStateVar(std::string const&)
+  0.00      0.40     0.00        3     0.00     0.00  flowstar::ContinuousReachability::declareStateVar(std::string const&)
+  0.00      0.40     0.00        3     0.00     0.00  flowstar::ContinuousReachability::getIDForPar(std::string const&) const
+  0.00      0.40     0.00        3     0.00     0.00  std::vector<flowstar::RowVector, std::allocator<flowstar::RowVector> >::insert(__gnu_cxx::__normal_iterator<flowstar::RowVector const*, std::vector<flowstar::RowVector, std::allocator<flowstar::RowVector> > >, flowstar::RowVector const&)
+  0.00      0.40     0.00        2     0.00     0.00  flowstar::TaylorModelVec::clear()
+  0.00      0.40     0.00        2     0.00     0.00  flowstar::Matrix::Matrix(int, int)
+  0.00      0.40     0.00        2     0.00     0.00  flowstar::Matrix::~Matrix()
+  0.00      0.40     0.00        2     0.00     0.00  std::_List_base<flowstar::Flowpipe, std::allocator<flowstar::Flowpipe> >::_M_clear()
+  0.00      0.40     0.00        2     0.00     0.00  std::_List_base<std::vector<flowstar::Interval, std::allocator<flowstar::Interval> >, std::allocator<std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > > >::_M_clear()
+  0.00      0.40     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN8flowstar10PolyhedronC2Ev
+  0.00      0.40     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN8flowstar13factorial_recE
+  0.00      0.40     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN8flowstar16LinearConstraintC2Ev
+  0.00      0.40     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN8flowstar6MatrixC2Ev
+  0.00      0.40     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN8flowstar8FlowpipeC2Ev
+  0.00      0.40     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN8flowstar8MonomialC2Ev
+  0.00      0.40     0.00        1     0.00     0.00  _GLOBAL__sub_I__ZN8flowstar8ResetMapC2Ev
+  0.00      0.40     0.00        1     0.00     0.00  _GLOBAL__sub_I_err
+  0.00      0.40     0.00        1     0.00     0.00  _GLOBAL__sub_I_intervalNumPrecision
+  0.00      0.40     0.00        1     0.00     0.00  _GLOBAL__sub_I_main
+  0.00      0.40     0.00        1     0.00     0.00  _GLOBAL__sub_I_parseSetting
+  0.00      0.40     0.00        1     0.00     0.00  _GLOBAL__sub_I_yyleng
+  0.00      0.40     0.00        1     0.00     0.00  yy_create_buffer(_IO_FILE*, int)
+  0.00      0.40     0.00        1     0.00     0.00  yyrestart(_IO_FILE*)
+  0.00      0.40     0.00        1     0.00     0.00  flowstar::Polyhedron::Polyhedron(flowstar::Matrix const&, flowstar::ColVector const&)
+  0.00      0.40     0.00        1     0.00     0.00  flowstar::Polyhedron::~Polyhedron()
+  0.00      0.40     0.00        1     0.00     0.00  flowstar::HybridSystem::HybridSystem()
+  0.00      0.40     0.00        1     0.00     0.00  flowstar::HybridSystem::~HybridSystem()
+  0.00      0.40     0.00        1     0.00     0.00  flowstar::ContinuousSystem::ContinuousSystem()
+  0.00      0.40     0.00        1     0.00     0.00  flowstar::ContinuousSystem::~ContinuousSystem()
+  0.00      0.40     0.00        1     0.00     0.00  flowstar::ReachabilitySetting::ReachabilitySetting()
+  0.00      0.40     0.00        1     0.00   185.11  flowstar::ContinuousReachability::plot_2D(bool)
+  0.00      0.40     0.00        1     0.00     0.00  flowstar::bMatrix::bMatrix()
+  0.00      0.40     0.00        1     0.00     0.00  flowstar::bMatrix::~bMatrix()
+  0.00      0.40     0.00        1     0.00     0.00  flowstar::Flowpipe::Flowpipe()
+  0.00      0.40     0.00        1     0.00     0.00  flowstar::Flowpipe::~Flowpipe()
+  0.00      0.40     0.00        1     0.00     0.00  flowstar::ColVector::ColVector(int)
+  0.00      0.40     0.00        1     0.00     0.00  flowstar::ColVector::~ColVector()
+  0.00      0.40     0.00        1     0.00     0.00  flowstar::RowVector::RowVector(int)
+  0.00      0.40     0.00        1     0.00   185.11  flowstar::ContinuousReachability::plot_2D_octagon_MATLAB(_IO_FILE*, bool) const
+  0.00      0.40     0.00        1     0.00     0.00  flowstar::Matrix::cols() const
+  0.00      0.40     0.00        1     0.00     0.00  flowstar::Matrix::rows() const
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2016 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 2.50% of 0.40 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]     97.5    0.01    0.38                 yyparse() [1]
+                0.00    0.19       1/1           flowstar::ContinuousReachability::plot_2D(bool) [2]
+                0.00    0.06   91911/91911       flowstar::Polynomial::pow(flowstar::Polynomial&, int) const [11]
+                0.00    0.04  147644/319535      flowstar::Polynomial::operator*=(flowstar::Polynomial const&) [8]
+                0.04    0.00  936079/936079      yylex() [15]
+                0.01    0.01  313162/313162      flowstar::Polynomial::~Polynomial() [21]
+                0.00    0.01   72707/399442      flowstar::Polynomial::operator+=(flowstar::Polynomial const&) [10]
+                0.01    0.00  147644/147644      flowstar::Monomial::Monomial(flowstar::Interval const&, std::vector<int, std::allocator<int> > const&) [26]
+                0.00    0.01  148844/148844      flowstar::ContinuousReachability::getIDForTMVar(std::string const&) const [28]
+                0.00    0.01   73607/73607       flowstar::Polynomial::Polynomial(flowstar::Interval const&, int) [31]
+                0.00    0.00  147644/10070327     flowstar::Monomial::~Monomial() [18]
+                0.00    0.00     900/900         void std::vector<flowstar::TaylorModel, std::allocator<flowstar::TaylorModel> >::_M_realloc_insert<flowstar::TaylorModel const&>(__gnu_cxx::__normal_iterator<flowstar::TaylorModel*, std::vector<flowstar::TaylorModel, std::allocator<flowstar::TaylorModel> > >, flowstar::TaylorModel const&) [45]
+                0.00    0.00  372496/16156231     flowstar::Interval::~Interval() [23]
+                0.00    0.00    1200/11700       flowstar::TaylorModel::~TaylorModel() [40]
+                0.00    0.00     300/605         flowstar::TaylorModelVec::~TaylorModelVec() [44]
+                0.00    0.00  147644/147644      flowstar::Polynomial::Polynomial(flowstar::Monomial const&) [48]
+                0.00    0.00     905/905         flowstar::ContinuousReachability::getIDForStateVar(std::string const&) const [51]
+                0.00    0.00     900/900         flowstar::TaylorModel::operator=(flowstar::TaylorModel const&) [52]
+                0.00    0.00     900/900         flowstar::TaylorModel::TaylorModel(flowstar::Polynomial const&, flowstar::Interval const&) [54]
+                0.00    0.00     300/300         std::vector<flowstar::TaylorModel, std::allocator<flowstar::TaylorModel> >::vector(std::vector<flowstar::TaylorModel, std::allocator<flowstar::TaylorModel> > const&) [55]
+                0.00    0.00    1200/5823621     std::_List_base<flowstar::Monomial, std::allocator<flowstar::Monomial> >::_M_clear() [9]
+                0.00    0.00    1200/13501       flowstar::Polynomial::~Polynomial() [46]
+                0.00    0.00    1501/4658723     flowstar::Interval::operator=(flowstar::Interval const&) [20]
+                0.00    0.00       3/3           flowstar::ContinuousReachability::getIDForPar(std::string const&) const [62]
+                0.00    0.00  590576/590576      void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) [87]
+                0.00    0.00  149754/149754      parseUnivariatePolynomial(std::string const&) [90]
+                0.00    0.00  147644/147678      flowstar::Interval::Interval(double) [91]
+                0.00    0.00   91911/101812      flowstar::Polynomial::Polynomial() [92]
+                0.00    0.00   75708/75708       flowstar::Interval::Interval(double, double) [94]
+                0.00    0.00    1500/1633315     flowstar::Interval::Interval() [85]
+                0.00    0.00    1200/14195210     flowstar::Interval::Interval(flowstar::Interval const&) [84]
+                0.00    0.00     300/300         flowstar::TaylorModelVec::TaylorModelVec(flowstar::TaylorModelVec const&) [102]
+                0.00    0.00     300/9900        flowstar::TaylorModel::TaylorModel() [96]
+                0.00    0.00     300/304         flowstar::TaylorModelVec::TaylorModelVec() [101]
+                0.00    0.00       4/4           flowstar::ContinuousReachability::declareTMVar(std::string const&) [120]
+                0.00    0.00       4/4           flowstar::HybridReachability::declareTMVar(std::string const&) [119]
+                0.00    0.00       4/4           std::vector<int, std::allocator<int> >::push_back(int const&) [125]
+                0.00    0.00       3/3           flowstar::ContinuousReachability::declareStateVar(std::string const&) [128]
+                0.00    0.00       3/3           flowstar::HybridReachability::declareStateVar(std::string const&) [127]
+-----------------------------------------------
+                0.00    0.19       1/1           yyparse() [1]
+[2]     46.3    0.00    0.19       1         flowstar::ContinuousReachability::plot_2D(bool) [2]
+                0.00    0.19       1/1           flowstar::ContinuousReachability::plot_2D_octagon_MATLAB(_IO_FILE*, bool) const [3]
+-----------------------------------------------
+                0.00    0.19       1/1           flowstar::ContinuousReachability::plot_2D(bool) [2]
+[3]     46.3    0.00    0.19       1         flowstar::ContinuousReachability::plot_2D_octagon_MATLAB(_IO_FILE*, bool) const [3]
+                0.00    0.19    2400/2400        flowstar::rho(flowstar::TaylorModelVec const&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) [4]
+                0.00    0.00    2400/4658723     flowstar::Interval::operator=(flowstar::Interval const&) [20]
+                0.00    0.00    2400/16156231     flowstar::Interval::~Interval() [23]
+                0.00    0.00       1/1           flowstar::Polyhedron::Polyhedron(flowstar::Matrix const&, flowstar::ColVector const&) [63]
+                0.00    0.00       1/1           flowstar::Polyhedron::~Polyhedron() [69]
+                0.00    0.00   14400/14400       flowstar::Interval::midpoint() const [95]
+                0.00    0.00    3000/3000        void std::vector<double, std::allocator<double> >::_M_realloc_insert<double const&>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, double const&) [98]
+                0.00    0.00      88/88          flowstar::RowVector::get(int) const [104]
+                0.00    0.00      64/88          flowstar::Matrix::get(int, int) const [103]
+                0.00    0.00      36/36          flowstar::Matrix::set(double, int, int) [105]
+                0.00    0.00       9/18          flowstar::RowVector::~RowVector() [106]
+                0.00    0.00       8/8           flowstar::Matrix::row(flowstar::RowVector&, int) const [111]
+                0.00    0.00       3/3           std::vector<flowstar::RowVector, std::allocator<flowstar::RowVector> >::insert(__gnu_cxx::__normal_iterator<flowstar::RowVector const*, std::vector<flowstar::RowVector, std::allocator<flowstar::RowVector> > >, flowstar::RowVector const&) [129]
+                0.00    0.00       3/4           void std::vector<flowstar::RowVector, std::allocator<flowstar::RowVector> >::_M_realloc_insert<flowstar::RowVector const&>(__gnu_cxx::__normal_iterator<flowstar::RowVector*, std::vector<flowstar::RowVector, std::allocator<flowstar::RowVector> > >, flowstar::RowVector const&) [123]
+                0.00    0.00       2/2           flowstar::Matrix::Matrix(int, int) [131]
+                0.00    0.00       2/17          flowstar::RowVector::RowVector(flowstar::RowVector const&) [107]
+                0.00    0.00       2/2           flowstar::Matrix::~Matrix() [132]
+                0.00    0.00       1/1           flowstar::RowVector::RowVector(int) [155]
+                0.00    0.00       1/1           flowstar::ColVector::ColVector(int) [153]
+                0.00    0.00       1/1           flowstar::ColVector::~ColVector() [154]
+-----------------------------------------------
+                0.00    0.19    2400/2400        flowstar::ContinuousReachability::plot_2D_octagon_MATLAB(_IO_FILE*, bool) const [3]
+[4]     46.3    0.00    0.19    2400         flowstar::rho(flowstar::TaylorModelVec const&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) [4]
+                0.00    0.18    2400/2400        flowstar::TaylorModel::intEval(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) const [6]
+                0.00    0.00    7200/7200        flowstar::TaylorModel::mul(flowstar::TaylorModel&, flowstar::Interval const&) const [36]
+                0.00    0.00    9600/11700       flowstar::TaylorModel::~TaylorModel() [40]
+                0.00    0.00    7200/7200        flowstar::TaylorModel::add_assign(flowstar::TaylorModel const&) [41]
+                0.00    0.00    9600/5823621     std::_List_base<flowstar::Monomial, std::allocator<flowstar::Monomial> >::_M_clear() [9]
+                0.00    0.00    9600/13501       flowstar::Polynomial::~Polynomial() [46]
+                0.00    0.00    2400/16156231     flowstar::Interval::~Interval() [23]
+                0.00    0.00    9600/9900        flowstar::TaylorModel::TaylorModel() [96]
+                0.00    0.00    9600/531408      flowstar::Interval::operator+=(flowstar::Interval const&) [88]
+                0.00    0.00    4800/1633315     flowstar::Interval::Interval() [85]
+                0.00    0.00    2400/2400        flowstar::Interval::sup(flowstar::Interval&) const [99]
+-----------------------------------------------
+                0.00    0.18    2400/2400        flowstar::TaylorModel::intEval(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) const [6]
+[5]     44.8    0.00    0.18    2400         flowstar::Polynomial::intEval(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) const [5]
+                0.03    0.14    2400/2400        flowstar::Polynomial::toHornerForm(flowstar::HornerForm&) const [7]
+                0.00    0.01    9600/9600        flowstar::HornerForm::intEval(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) const [30]
+                0.00    0.00    9600/1134371     flowstar::Interval::operator*=(flowstar::Interval const&) [25]
+                0.00    0.00    2400/915564      flowstar::HornerForm::~HornerForm() [22]
+                0.00    0.00    2400/4658723     flowstar::Interval::operator=(flowstar::Interval const&) [20]
+                0.00    0.00   12000/16156231     flowstar::Interval::~Interval() [23]
+                0.00    0.00   12000/1633315     flowstar::Interval::Interval() [85]
+                0.00    0.00    9600/531408      flowstar::Interval::operator+=(flowstar::Interval const&) [88]
+-----------------------------------------------
+                0.00    0.18    2400/2400        flowstar::rho(flowstar::TaylorModelVec const&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) [4]
+[6]     44.8    0.00    0.18    2400         flowstar::TaylorModel::intEval(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) const [6]
+                0.00    0.18    2400/2400        flowstar::Polynomial::intEval(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) const [5]
+-----------------------------------------------
+                              521808             flowstar::Polynomial::toHornerForm(flowstar::HornerForm&) const [7]
+                0.03    0.14    2400/2400        flowstar::Polynomial::intEval(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) const [5]
+[7]     43.0    0.03    0.14    2400+521808  flowstar::Polynomial::toHornerForm(flowstar::HornerForm&) const [7]
+                0.04    0.01  521808/521808      std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >::sort() [12]
+                0.01    0.03  391356/391356      void std::vector<flowstar::HornerForm, std::allocator<flowstar::HornerForm> >::_M_realloc_insert<flowstar::HornerForm const&>(__gnu_cxx::__normal_iterator<flowstar::HornerForm*, std::vector<flowstar::HornerForm, std::allocator<flowstar::HornerForm> > >, flowstar::HornerForm const&) [14]
+                0.02    0.01 2283272/5823621     std::_List_base<flowstar::Monomial, std::allocator<flowstar::Monomial> >::_M_clear() [9]
+                0.01    0.00  521808/915564      flowstar::HornerForm::~HornerForm() [22]
+                0.00    0.00  130452/913164      flowstar::HornerForm::HornerForm(flowstar::HornerForm const&) [17]
+                0.00    0.00 1072474/10070327     flowstar::Monomial::~Monomial() [18]
+                0.00    0.00  848300/1651102     std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >::list(std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> > const&) [35]
+                0.00    0.00 1594282/16156231     flowstar::Interval::~Interval() [23]
+                0.00    0.00  876566/9849076     flowstar::Monomial::Monomial(flowstar::Monomial const&) [24]
+                0.00    0.00  195908/4658723     flowstar::Interval::operator=(flowstar::Interval const&) [20]
+                0.00    0.00  391356/391356      void std::vector<std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >, std::allocator<std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> > > >::_M_realloc_insert<std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> > const&>(__gnu_cxx::__normal_iterator<std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >*, std::vector<std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >, std::allocator<std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> > > > >, std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> > const&) [42]
+                0.00    0.00  524208/524208      flowstar::Interval::set(double, double) [89]
+                0.00    0.00  521808/1633315     flowstar::Interval::Interval() [85]
+                              521808             flowstar::Polynomial::toHornerForm(flowstar::HornerForm&) const [7]
+-----------------------------------------------
+                0.00    0.04  147644/319535      yyparse() [1]
+                0.00    0.05  171891/319535      flowstar::Polynomial::pow(flowstar::Polynomial&, int) const [11]
+[8]     22.4    0.00    0.09  319535         flowstar::Polynomial::operator*=(flowstar::Polynomial const&) [8]
+                0.01    0.04  319535/399442      flowstar::Polynomial::operator+=(flowstar::Polynomial const&) [10]
+                0.01    0.01 1278140/5823621     std::_List_base<flowstar::Monomial, std::allocator<flowstar::Monomial> >::_M_clear() [9]
+                0.00    0.02  319535/818988      flowstar::Polynomial::ctrunc_normal(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, int) [13]
+                0.00    0.00  319535/319535      flowstar::Monomial::operator*=(flowstar::Monomial const&) [37]
+                0.00    0.00  319535/1651102     std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >::list(std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> > const&) [35]
+                0.00    0.00  319535/16156231     flowstar::Interval::~Interval() [23]
+                0.00    0.00  319535/1633315     flowstar::Interval::Interval() [85]
+                0.00    0.00  319535/693370      flowstar::Interval::subseteq(flowstar::Interval const&) const [86]
+-----------------------------------------------
+                0.00    0.00       1/5823621     flowstar::ParseResult::~ParseResult() [68]
+                0.00    0.00     900/5823621     void std::vector<flowstar::TaylorModel, std::allocator<flowstar::TaylorModel> >::_M_realloc_insert<flowstar::TaylorModel const&>(__gnu_cxx::__normal_iterator<flowstar::TaylorModel*, std::vector<flowstar::TaylorModel, std::allocator<flowstar::TaylorModel> > >, flowstar::TaylorModel const&) [45]
+                0.00    0.00    1200/5823621     yyparse() [1]
+                0.00    0.00    1800/5823621     flowstar::TaylorModelVec::~TaylorModelVec() [44]
+                0.00    0.00    3600/5823621     flowstar::Polynomial::mul_assign(flowstar::Interval const&) [38]
+                0.00    0.00    9600/5823621     flowstar::rho(flowstar::TaylorModelVec const&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) [4]
+                0.00    0.00   13501/5823621     flowstar::Polynomial::~Polynomial() [46]
+                0.00    0.00  127920/5823621     std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >::sort() [12]
+                0.00    0.00  183822/5823621     flowstar::Polynomial::pow(flowstar::Polynomial&, int) const [11]
+                0.00    0.00  494657/5823621     flowstar::Polynomial::ctrunc_normal(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, int) [13]
+                0.01    0.00  626324/5823621     flowstar::Polynomial::~Polynomial() [21]
+                0.01    0.00  798884/5823621     flowstar::Polynomial::operator+=(flowstar::Polynomial const&) [10]
+                0.01    0.01 1278140/5823621     flowstar::Polynomial::operator*=(flowstar::Polynomial const&) [8]
+                0.02    0.01 2283272/5823621     flowstar::Polynomial::toHornerForm(flowstar::HornerForm&) const [7]
+[9]     19.9    0.06    0.02 5823621         std::_List_base<flowstar::Monomial, std::allocator<flowstar::Monomial> >::_M_clear() [9]
+                0.02    0.00 7969725/10070327     flowstar::Monomial::~Monomial() [18]
+                0.00    0.00 7969725/16156231     flowstar::Interval::~Interval() [23]
+-----------------------------------------------
+                0.00    0.00    7200/399442      flowstar::TaylorModel::add_assign(flowstar::TaylorModel const&) [41]
+                0.00    0.01   72707/399442      yyparse() [1]
+                0.01    0.04  319535/399442      flowstar::Polynomial::operator*=(flowstar::Polynomial const&) [8]
+[10]    16.1    0.01    0.05  399442         flowstar::Polynomial::operator+=(flowstar::Polynomial const&) [10]
+                0.00    0.02  399442/818988      flowstar::Polynomial::ctrunc_normal(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, int) [13]
+                0.02    0.00 3191305/4811823     flowstar::Monomial::operator<(flowstar::Monomial const&) const [19]
+                0.01    0.00  798884/5823621     std::_List_base<flowstar::Monomial, std::allocator<flowstar::Monomial> >::_M_clear() [9]
+                0.00    0.00 4024469/9849076     flowstar::Monomial::Monomial(flowstar::Monomial const&) [24]
+                0.00    0.00  194240/4658723     flowstar::Interval::operator=(flowstar::Interval const&) [20]
+                0.00    0.00   97120/10070327     flowstar::Monomial::~Monomial() [18]
+                0.00    0.00  291360/16156231     flowstar::Interval::~Interval() [23]
+                0.00    0.00   97120/1633315     flowstar::Interval::Interval() [85]
+                0.00    0.00   97120/97120       flowstar::Interval::operator+(flowstar::Interval const&) const [93]
+-----------------------------------------------
+                0.00    0.06   91911/91911       yyparse() [1]
+[11]    14.0    0.00    0.06   91911         flowstar::Polynomial::pow(flowstar::Polynomial&, int) const [11]
+                0.00    0.05  171891/319535      flowstar::Polynomial::operator*=(flowstar::Polynomial const&) [8]
+                0.00    0.00   91911/818988      flowstar::Polynomial::ctrunc_normal(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, int) [13]
+                0.00    0.00  183822/5823621     std::_List_base<flowstar::Monomial, std::allocator<flowstar::Monomial> >::_M_clear() [9]
+                0.00    0.00   91911/1651102     std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >::list(std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> > const&) [35]
+-----------------------------------------------
+                0.04    0.01  521808/521808      flowstar::Polynomial::toHornerForm(flowstar::HornerForm&) const [7]
+[12]    12.5    0.04    0.01  521808         std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >::sort() [12]
+                0.00    0.01  814318/814318      std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >::merge(std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >&&) [29]
+                0.00    0.00  127920/5823621     std::_List_base<flowstar::Monomial, std::allocator<flowstar::Monomial> >::_M_clear() [9]
+-----------------------------------------------
+                0.00    0.00     900/818988      flowstar::Polynomial::operator=(flowstar::Polynomial const&) [53]
+                0.00    0.00    7200/818988      flowstar::Polynomial::mul(flowstar::Polynomial&, flowstar::Interval const&) const [43]
+                0.00    0.00   91911/818988      flowstar::Polynomial::pow(flowstar::Polynomial&, int) const [11]
+                0.00    0.02  319535/818988      flowstar::Polynomial::operator*=(flowstar::Polynomial const&) [8]
+                0.00    0.02  399442/818988      flowstar::Polynomial::operator+=(flowstar::Polynomial const&) [10]
+[13]    11.0    0.00    0.04  818988         flowstar::Polynomial::ctrunc_normal(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, int) [13]
+                0.02    0.02 3658734/3658734     flowstar::Monomial::operator=(flowstar::Monomial const&) [16]
+                0.00    0.00  494657/5823621     std::_List_base<flowstar::Monomial, std::allocator<flowstar::Monomial> >::_M_clear() [9]
+                0.00    0.00 1342524/9849076     flowstar::Monomial::Monomial(flowstar::Monomial const&) [24]
+-----------------------------------------------
+                0.01    0.03  391356/391356      flowstar::Polynomial::toHornerForm(flowstar::HornerForm&) const [7]
+[14]    10.3    0.01    0.03  391356         void std::vector<flowstar::HornerForm, std::allocator<flowstar::HornerForm> >::_M_realloc_insert<flowstar::HornerForm const&>(__gnu_cxx::__normal_iterator<flowstar::HornerForm*, std::vector<flowstar::HornerForm, std::allocator<flowstar::HornerForm> > >, flowstar::HornerForm const&) [14]
+                0.03    0.00  782712/913164      flowstar::HornerForm::HornerForm(flowstar::HornerForm const&) [17]
+                0.00    0.00  391356/915564      flowstar::HornerForm::~HornerForm() [22]
+                0.00    0.00  391356/16156231     flowstar::Interval::~Interval() [23]
+-----------------------------------------------
+                0.04    0.00  936079/936079      yyparse() [1]
+[15]    10.0    0.04    0.00  936079         yylex() [15]
+                0.00    0.00     683/683         yy_get_next_buffer() [100]
+                0.00    0.00       1/1           yy_create_buffer(_IO_FILE*, int) [146]
+-----------------------------------------------
+                0.02    0.02 3658734/3658734     flowstar::Polynomial::ctrunc_normal(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, int) [13]
+[16]     8.9    0.02    0.02 3658734         flowstar::Monomial::operator=(flowstar::Monomial const&) [16]
+                0.02    0.00 3658734/4658723     flowstar::Interval::operator=(flowstar::Interval const&) [20]
+-----------------------------------------------
+                             3280408             flowstar::HornerForm::HornerForm(flowstar::HornerForm const&) [17]
+                0.00    0.00  130452/913164      flowstar::Polynomial::toHornerForm(flowstar::HornerForm&) const [7]
+                0.03    0.00  782712/913164      void std::vector<flowstar::HornerForm, std::allocator<flowstar::HornerForm> >::_M_realloc_insert<flowstar::HornerForm const&>(__gnu_cxx::__normal_iterator<flowstar::HornerForm*, std::vector<flowstar::HornerForm, std::allocator<flowstar::HornerForm> > >, flowstar::HornerForm const&) [14]
+[17]     7.5    0.03    0.00  913164+3280408 flowstar::HornerForm::HornerForm(flowstar::HornerForm const&) [17]
+                0.00    0.00 4193572/14195210     flowstar::Interval::Interval(flowstar::Interval const&) [84]
+                             3280408             flowstar::HornerForm::HornerForm(flowstar::HornerForm const&) [17]
+-----------------------------------------------
+                0.00    0.00   73607/10070327     flowstar::Polynomial::Polynomial(flowstar::Interval const&, int) [31]
+                0.00    0.00   97120/10070327     flowstar::Polynomial::operator+=(flowstar::Polynomial const&) [10]
+                0.00    0.00  147644/10070327     yyparse() [1]
+                0.00    0.00  709757/10070327     flowstar::Polynomial::clear() [39]
+                0.00    0.00 1072474/10070327     flowstar::Polynomial::toHornerForm(flowstar::HornerForm&) const [7]
+                0.02    0.00 7969725/10070327     std::_List_base<flowstar::Monomial, std::allocator<flowstar::Monomial> >::_M_clear() [9]
+[18]     6.3    0.03    0.00 10070327         flowstar::Monomial::~Monomial() [18]
+-----------------------------------------------
+                0.01    0.00 1620518/4811823     std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >::merge(std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >&&) [29]
+                0.02    0.00 3191305/4811823     flowstar::Polynomial::operator+=(flowstar::Polynomial const&) [10]
+[19]     6.3    0.03    0.00 4811823         flowstar::Monomial::operator<(flowstar::Monomial const&) const [19]
+-----------------------------------------------
+                0.00    0.00       2/4658723     flowstar::ReachabilitySetting::ReachabilitySetting() [71]
+                0.00    0.00       8/4658723     flowstar::LinearConstraint::LinearConstraint(std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, flowstar::Interval const&) [67]
+                0.00    0.00      15/4658723     flowstar::LinearConstraint::LinearConstraint(flowstar::LinearConstraint const&) [65]
+                0.00    0.00     900/4658723     flowstar::TaylorModel::operator=(flowstar::TaylorModel const&) [52]
+                0.00    0.00    1501/4658723     yyparse() [1]
+                0.00    0.00    2400/4658723     flowstar::Polynomial::intEval(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) const [5]
+                0.00    0.00    2400/4658723     flowstar::ContinuousReachability::plot_2D_octagon_MATLAB(_IO_FILE*, bool) const [3]
+                0.00    0.00    7200/4658723     flowstar::TaylorModel::mul(flowstar::TaylorModel&, flowstar::Interval const&) const [36]
+                0.00    0.00   73607/4658723     flowstar::Monomial::Monomial(flowstar::Interval const&, int) [32]
+                0.00    0.00  194240/4658723     flowstar::Polynomial::operator+=(flowstar::Polynomial const&) [10]
+                0.00    0.00  195908/4658723     flowstar::Polynomial::toHornerForm(flowstar::HornerForm&) const [7]
+                0.00    0.00  521808/4658723     flowstar::HornerForm::intEval(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) const [30]
+                0.02    0.00 3658734/4658723     flowstar::Monomial::operator=(flowstar::Monomial const&) [16]
+[20]     5.0    0.02    0.00 4658723         flowstar::Interval::operator=(flowstar::Interval const&) [20]
+-----------------------------------------------
+                0.01    0.01  313162/313162      yyparse() [1]
+[21]     4.6    0.01    0.01  313162         flowstar::Polynomial::~Polynomial() [21]
+                0.01    0.00  626324/5823621     std::_List_base<flowstar::Monomial, std::allocator<flowstar::Monomial> >::_M_clear() [9]
+-----------------------------------------------
+                             3802216             flowstar::HornerForm::~HornerForm() [22]
+                0.00    0.00    2400/915564      flowstar::Polynomial::intEval(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) const [5]
+                0.00    0.00  391356/915564      void std::vector<flowstar::HornerForm, std::allocator<flowstar::HornerForm> >::_M_realloc_insert<flowstar::HornerForm const&>(__gnu_cxx::__normal_iterator<flowstar::HornerForm*, std::vector<flowstar::HornerForm, std::allocator<flowstar::HornerForm> > >, flowstar::HornerForm const&) [14]
+                0.01    0.00  521808/915564      flowstar::Polynomial::toHornerForm(flowstar::HornerForm&) const [7]
+[22]     3.1    0.01    0.00  915564+3802216 flowstar::HornerForm::~HornerForm() [22]
+                0.00    0.00 3802216/16156231     flowstar::Interval::~Interval() [23]
+                             3802216             flowstar::HornerForm::~HornerForm() [22]
+-----------------------------------------------
+                0.00    0.00       1/16156231     flowstar::UnivariatePolynomial::~UnivariatePolynomial() [75]
+                0.00    0.00       1/16156231     flowstar::UnivariatePolynomial::UnivariatePolynomial() [73]
+                0.00    0.00       1/16156231     flowstar::ParseSetting::~ParseSetting() [60]
+                0.00    0.00       1/16156231     flowstar::ContinuousReachability::~ContinuousReachability() [47]
+                0.00    0.00       1/16156231     flowstar::ReachabilitySetting::~ReachabilitySetting() [74]
+                0.00    0.00       1/16156231     flowstar::HybridReachability::~HybridReachability() [56]
+                0.00    0.00       2/16156231     flowstar::ParseResult::~ParseResult() [68]
+                0.00    0.00       2/16156231     flowstar::ReachabilitySetting::ReachabilitySetting() [71]
+                0.00    0.00      24/16156231     void std::vector<flowstar::Interval, std::allocator<flowstar::Interval> >::_M_realloc_insert<flowstar::Interval const&>(__gnu_cxx::__normal_iterator<flowstar::Interval*, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > >, flowstar::Interval const&) [70]
+                0.00    0.00      56/16156231     flowstar::Polyhedron::Polyhedron(flowstar::Matrix const&, flowstar::ColVector const&) [63]
+                0.00    0.00      92/16156231     flowstar::LinearConstraint::~LinearConstraint() [66]
+                0.00    0.00    1200/16156231     std::_List_base<std::vector<flowstar::Interval, std::allocator<flowstar::Interval> >, std::allocator<std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > > >::_M_clear() [59]
+                0.00    0.00    1800/16156231     flowstar::TaylorModelVec::~TaylorModelVec() [44]
+                0.00    0.00    2400/16156231     flowstar::rho(flowstar::TaylorModelVec const&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) [4]
+                0.00    0.00    2400/16156231     flowstar::ContinuousReachability::plot_2D_octagon_MATLAB(_IO_FILE*, bool) const [3]
+                0.00    0.00    7200/16156231     flowstar::Polynomial::mul_assign(flowstar::Interval const&) [38]
+                0.00    0.00    7200/16156231     flowstar::TaylorModel::mul(flowstar::TaylorModel&, flowstar::Interval const&) const [36]
+                0.00    0.00   11700/16156231     flowstar::TaylorModel::~TaylorModel() [40]
+                0.00    0.00   12000/16156231     flowstar::Polynomial::intEval(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) const [5]
+                0.00    0.00  147214/16156231     flowstar::Polynomial::Polynomial(flowstar::Interval const&, int) [31]
+                0.00    0.00  291360/16156231     flowstar::Polynomial::operator+=(flowstar::Polynomial const&) [10]
+                0.00    0.00  319535/16156231     flowstar::Polynomial::operator*=(flowstar::Polynomial const&) [8]
+                0.00    0.00  372496/16156231     yyparse() [1]
+                0.00    0.00  391356/16156231     void std::vector<flowstar::HornerForm, std::allocator<flowstar::HornerForm> >::_M_realloc_insert<flowstar::HornerForm const&>(__gnu_cxx::__normal_iterator<flowstar::HornerForm*, std::vector<flowstar::HornerForm, std::allocator<flowstar::HornerForm> > >, flowstar::HornerForm const&) [14]
+                0.00    0.00  512208/16156231     flowstar::HornerForm::intEval(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) const [30]
+                0.00    0.00  709757/16156231     flowstar::Polynomial::clear() [39]
+                0.00    0.00 1594282/16156231     flowstar::Polynomial::toHornerForm(flowstar::HornerForm&) const [7]
+                0.00    0.00 3802216/16156231     flowstar::HornerForm::~HornerForm() [22]
+                0.00    0.00 7969725/16156231     std::_List_base<flowstar::Monomial, std::allocator<flowstar::Monomial> >::_M_clear() [9]
+[23]     2.5    0.01    0.00 16156231         flowstar::Interval::~Interval() [23]
+-----------------------------------------------
+                0.00    0.00   73607/9849076     flowstar::Polynomial::Polynomial(flowstar::Interval const&, int) [31]
+                0.00    0.00  147214/9849076     flowstar::Polynomial::Polynomial(flowstar::Polynomial const&) [49]
+                0.00    0.00  147644/9849076     flowstar::Polynomial::Polynomial(flowstar::Monomial const&) [48]
+                0.00    0.00  876566/9849076     flowstar::Polynomial::toHornerForm(flowstar::HornerForm&) const [7]
+                0.00    0.00 1342524/9849076     flowstar::Polynomial::ctrunc_normal(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, int) [13]
+                0.00    0.00 3237052/9849076     std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >::list(std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> > const&) [35]
+                0.00    0.00 4024469/9849076     flowstar::Polynomial::operator+=(flowstar::Polynomial const&) [10]
+[24]     2.5    0.01    0.00 9849076         flowstar::Monomial::Monomial(flowstar::Monomial const&) [24]
+                0.00    0.00 9849076/14195210     flowstar::Interval::Interval(flowstar::Interval const&) [84]
+-----------------------------------------------
+                0.00    0.00    9600/1134371     flowstar::Polynomial::intEval(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) const [5]
+                0.00    0.00  293028/1134371     flowstar::Polynomial::mul_assign(flowstar::Interval const&) [38]
+                0.00    0.00  319535/1134371     flowstar::Monomial::operator*=(flowstar::Monomial const&) [37]
+                0.00    0.00  512208/1134371     flowstar::HornerForm::intEval(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) const [30]
+[25]     2.5    0.01    0.00 1134371         flowstar::Interval::operator*=(flowstar::Interval const&) [25]
+-----------------------------------------------
+                0.01    0.00  147644/147644      yyparse() [1]
+[26]     2.5    0.01    0.00  147644         flowstar::Monomial::Monomial(flowstar::Interval const&, std::vector<int, std::allocator<int> > const&) [26]
+                0.00    0.00  147644/14195210     flowstar::Interval::Interval(flowstar::Interval const&) [84]
+-----------------------------------------------
+                0.00    0.00       3/149752      flowstar::ContinuousReachability::getIDForPar(std::string const&) const [62]
+                0.00    0.00     905/149752      flowstar::ContinuousReachability::getIDForStateVar(std::string const&) const [51]
+                0.01    0.00  148844/149752      flowstar::ContinuousReachability::getIDForTMVar(std::string const&) const [28]
+[27]     2.5    0.01    0.00  149752         std::_Rb_tree<std::string, std::pair<std::string const, int>, std::_Select1st<std::pair<std::string const, int> >, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::find(std::string const&) const [27]
+-----------------------------------------------
+                0.00    0.01  148844/148844      yyparse() [1]
+[28]     2.5    0.00    0.01  148844         flowstar::ContinuousReachability::getIDForTMVar(std::string const&) const [28]
+                0.01    0.00  148844/149752      std::_Rb_tree<std::string, std::pair<std::string const, int>, std::_Select1st<std::pair<std::string const, int> >, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::find(std::string const&) const [27]
+-----------------------------------------------
+                0.00    0.01  814318/814318      std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >::sort() [12]
+[29]     2.1    0.00    0.01  814318         std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >::merge(std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >&&) [29]
+                0.01    0.00 1620518/4811823     flowstar::Monomial::operator<(flowstar::Monomial const&) const [19]
+-----------------------------------------------
+                              512208             flowstar::HornerForm::intEval(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) const [30]
+                0.00    0.01    9600/9600        flowstar::Polynomial::intEval(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) const [5]
+[30]     1.8    0.00    0.01    9600+512208  flowstar::HornerForm::intEval(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) const [30]
+                0.00    0.00  512208/1134371     flowstar::Interval::operator*=(flowstar::Interval const&) [25]
+                0.00    0.00  521808/4658723     flowstar::Interval::operator=(flowstar::Interval const&) [20]
+                0.00    0.00  512208/16156231     flowstar::Interval::~Interval() [23]
+                0.00    0.00  512208/1633315     flowstar::Interval::Interval() [85]
+                0.00    0.00  512208/531408      flowstar::Interval::operator+=(flowstar::Interval const&) [88]
+                              512208             flowstar::HornerForm::intEval(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) const [30]
+-----------------------------------------------
+                0.00    0.01   73607/73607       yyparse() [1]
+[31]     1.4    0.00    0.01   73607         flowstar::Polynomial::Polynomial(flowstar::Interval const&, int) [31]
+                0.01    0.00   73607/73607       flowstar::Monomial::Monomial(flowstar::Interval const&, int) [32]
+                0.00    0.00   73607/10070327     flowstar::Monomial::~Monomial() [18]
+                0.00    0.00  147214/16156231     flowstar::Interval::~Interval() [23]
+                0.00    0.00   73607/9849076     flowstar::Monomial::Monomial(flowstar::Monomial const&) [24]
+                0.00    0.00   73607/1633315     flowstar::Interval::Interval() [85]
+                0.00    0.00   73607/693370      flowstar::Interval::subseteq(flowstar::Interval const&) const [86]
+-----------------------------------------------
+                0.01    0.00   73607/73607       flowstar::Polynomial::Polynomial(flowstar::Interval const&, int) [31]
+[32]     1.3    0.01    0.00   73607         flowstar::Monomial::Monomial(flowstar::Interval const&, int) [32]
+                0.00    0.00   73607/4658723     flowstar::Interval::operator=(flowstar::Interval const&) [20]
+                0.00    0.00   73607/1633315     flowstar::Interval::Interval() [85]
+-----------------------------------------------
+                                                 <spontaneous>
+[33]     1.2    0.01    0.00                 flowstar::Monomial::operator==(flowstar::Monomial const&) const [33]
+-----------------------------------------------
+                                                 <spontaneous>
+[34]     1.2    0.01    0.00                 std::_List_base<flowstar::Interval, std::allocator<flowstar::Interval> >::_M_clear() [34]
+-----------------------------------------------
+                0.00    0.00   91911/1651102     flowstar::Polynomial::pow(flowstar::Polynomial&, int) const [11]
+                0.00    0.00  319535/1651102     flowstar::Polynomial::operator*=(flowstar::Polynomial const&) [8]
+                0.00    0.00  391356/1651102     void std::vector<std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >, std::allocator<std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> > > >::_M_realloc_insert<std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> > const&>(__gnu_cxx::__normal_iterator<std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >*, std::vector<std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >, std::allocator<std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> > > > >, std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> > const&) [42]
+                0.00    0.00  848300/1651102     flowstar::Polynomial::toHornerForm(flowstar::HornerForm&) const [7]
+[35]     0.8    0.00    0.00 1651102         std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >::list(std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> > const&) [35]
+                0.00    0.00 3237052/9849076     flowstar::Monomial::Monomial(flowstar::Monomial const&) [24]
+-----------------------------------------------
+                0.00    0.00    7200/7200        flowstar::rho(flowstar::TaylorModelVec const&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) [4]
+[36]     0.8    0.00    0.00    7200         flowstar::TaylorModel::mul(flowstar::TaylorModel&, flowstar::Interval const&) const [36]
+                0.00    0.00    7200/7200        flowstar::Polynomial::mul_assign(flowstar::Interval const&) [38]
+                0.00    0.00    7200/7200        flowstar::Polynomial::mul(flowstar::Polynomial&, flowstar::Interval const&) const [43]
+                0.00    0.00    7200/4658723     flowstar::Interval::operator=(flowstar::Interval const&) [20]
+                0.00    0.00    7200/16156231     flowstar::Interval::~Interval() [23]
+                0.00    0.00    7200/7200        flowstar::Interval::operator*(flowstar::Interval const&) const [97]
+-----------------------------------------------
+                0.00    0.00  319535/319535      flowstar::Polynomial::operator*=(flowstar::Polynomial const&) [8]
+[37]     0.7    0.00    0.00  319535         flowstar::Monomial::operator*=(flowstar::Monomial const&) [37]
+                0.00    0.00  319535/1134371     flowstar::Interval::operator*=(flowstar::Interval const&) [25]
+-----------------------------------------------
+                0.00    0.00    7200/7200        flowstar::TaylorModel::mul(flowstar::TaylorModel&, flowstar::Interval const&) const [36]
+[38]     0.7    0.00    0.00    7200         flowstar::Polynomial::mul_assign(flowstar::Interval const&) [38]
+                0.00    0.00  293028/1134371     flowstar::Interval::operator*=(flowstar::Interval const&) [25]
+                0.00    0.00    3600/5823621     std::_List_base<flowstar::Monomial, std::allocator<flowstar::Monomial> >::_M_clear() [9]
+                0.00    0.00    7200/16156231     flowstar::Interval::~Interval() [23]
+                0.00    0.00  300228/693370      flowstar::Interval::subseteq(flowstar::Interval const&) const [86]
+                0.00    0.00    7200/1633315     flowstar::Interval::Interval() [85]
+-----------------------------------------------
+                0.00    0.00    1800/13500       flowstar::TaylorModelVec::~TaylorModelVec() [44]
+                0.00    0.00   11700/13500       flowstar::TaylorModel::~TaylorModel() [40]
+[39]     0.6    0.00    0.00   13500         flowstar::Polynomial::clear() [39]
+                0.00    0.00  709757/10070327     flowstar::Monomial::~Monomial() [18]
+                0.00    0.00  709757/16156231     flowstar::Interval::~Interval() [23]
+-----------------------------------------------
+                0.00    0.00     900/11700       void std::vector<flowstar::TaylorModel, std::allocator<flowstar::TaylorModel> >::_M_realloc_insert<flowstar::TaylorModel const&>(__gnu_cxx::__normal_iterator<flowstar::TaylorModel*, std::vector<flowstar::TaylorModel, std::allocator<flowstar::TaylorModel> > >, flowstar::TaylorModel const&) [45]
+                0.00    0.00    1200/11700       yyparse() [1]
+                0.00    0.00    9600/11700       flowstar::rho(flowstar::TaylorModelVec const&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) [4]
+[40]     0.5    0.00    0.00   11700         flowstar::TaylorModel::~TaylorModel() [40]
+                0.00    0.00   11700/13500       flowstar::Polynomial::clear() [39]
+                0.00    0.00   11700/16156231     flowstar::Interval::~Interval() [23]
+-----------------------------------------------
+                0.00    0.00    7200/7200        flowstar::rho(flowstar::TaylorModelVec const&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) [4]
+[41]     0.3    0.00    0.00    7200         flowstar::TaylorModel::add_assign(flowstar::TaylorModel const&) [41]
+                0.00    0.00    7200/399442      flowstar::Polynomial::operator+=(flowstar::Polynomial const&) [10]
+-----------------------------------------------
+                0.00    0.00  391356/391356      flowstar::Polynomial::toHornerForm(flowstar::HornerForm&) const [7]
+[42]     0.2    0.00    0.00  391356         void std::vector<std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >, std::allocator<std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> > > >::_M_realloc_insert<std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> > const&>(__gnu_cxx::__normal_iterator<std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >*, std::vector<std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >, std::allocator<std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> > > > >, std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> > const&) [42]
+                0.00    0.00  391356/1651102     std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >::list(std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> > const&) [35]
+-----------------------------------------------
+                0.00    0.00    7200/7200        flowstar::TaylorModel::mul(flowstar::TaylorModel&, flowstar::Interval const&) const [36]
+[43]     0.1    0.00    0.00    7200         flowstar::Polynomial::mul(flowstar::Polynomial&, flowstar::Interval const&) const [43]
+                0.00    0.00    7200/818988      flowstar::Polynomial::ctrunc_normal(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, int) [13]
+-----------------------------------------------
+                0.00    0.00       1/605         flowstar::ParseSetting::~ParseSetting() [60]
+                0.00    0.00       1/605         flowstar::Flowpipe::~Flowpipe() [61]
+                0.00    0.00       1/605         flowstar::HybridSystem::~HybridSystem() [57]
+                0.00    0.00       2/605         flowstar::ContinuousSystem::~ContinuousSystem() [58]
+                0.00    0.00     300/605         flowstar::ContinuousReachability::~ContinuousReachability() [47]
+                0.00    0.00     300/605         yyparse() [1]
+[44]     0.1    0.00    0.00     605         flowstar::TaylorModelVec::~TaylorModelVec() [44]
+                0.00    0.00    1800/13500       flowstar::Polynomial::clear() [39]
+                0.00    0.00    1800/5823621     std::_List_base<flowstar::Monomial, std::allocator<flowstar::Monomial> >::_M_clear() [9]
+                0.00    0.00    1800/13501       flowstar::Polynomial::~Polynomial() [46]
+                0.00    0.00    1800/16156231     flowstar::Interval::~Interval() [23]
+-----------------------------------------------
+                0.00    0.00     900/900         yyparse() [1]
+[45]     0.1    0.00    0.00     900         void std::vector<flowstar::TaylorModel, std::allocator<flowstar::TaylorModel> >::_M_realloc_insert<flowstar::TaylorModel const&>(__gnu_cxx::__normal_iterator<flowstar::TaylorModel*, std::vector<flowstar::TaylorModel, std::allocator<flowstar::TaylorModel> > >, flowstar::TaylorModel const&) [45]
+                0.00    0.00     900/11700       flowstar::TaylorModel::~TaylorModel() [40]
+                0.00    0.00    1800/1800        flowstar::TaylorModel::TaylorModel(flowstar::TaylorModel const&) [50]
+                0.00    0.00     900/5823621     std::_List_base<flowstar::Monomial, std::allocator<flowstar::Monomial> >::_M_clear() [9]
+                0.00    0.00     900/13501       flowstar::Polynomial::~Polynomial() [46]
+-----------------------------------------------
+                0.00    0.00       1/13501       flowstar::ParseResult::~ParseResult() [68]
+                0.00    0.00     900/13501       void std::vector<flowstar::TaylorModel, std::allocator<flowstar::TaylorModel> >::_M_realloc_insert<flowstar::TaylorModel const&>(__gnu_cxx::__normal_iterator<flowstar::TaylorModel*, std::vector<flowstar::TaylorModel, std::allocator<flowstar::TaylorModel> > >, flowstar::TaylorModel const&) [45]
+                0.00    0.00    1200/13501       yyparse() [1]
+                0.00    0.00    1800/13501       flowstar::TaylorModelVec::~TaylorModelVec() [44]
+                0.00    0.00    9600/13501       flowstar::rho(flowstar::TaylorModelVec const&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) [4]
+[46]     0.0    0.00    0.00   13501         flowstar::Polynomial::~Polynomial() [46]
+                0.00    0.00   13501/5823621     std::_List_base<flowstar::Monomial, std::allocator<flowstar::Monomial> >::_M_clear() [9]
+-----------------------------------------------
+                                                 <spontaneous>
+[47]     0.0    0.00    0.00                 flowstar::ContinuousReachability::~ContinuousReachability() [47]
+                0.00    0.00     300/605         flowstar::TaylorModelVec::~TaylorModelVec() [44]
+                0.00    0.00       1/1           flowstar::ContinuousSystem::~ContinuousSystem() [58]
+                0.00    0.00       2/2           std::_List_base<std::vector<flowstar::Interval, std::allocator<flowstar::Interval> >, std::allocator<std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > > >::_M_clear() [59]
+                0.00    0.00       1/16156231     flowstar::Interval::~Interval() [23]
+                0.00    0.00       8/15          std::_Rb_tree<std::string, std::pair<std::string const, int>, std::_Select1st<std::pair<std::string const, int> >, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::_M_erase(std::_Rb_tree_node<std::pair<std::string const, int> >*) [108]
+                0.00    0.00       2/2           std::_List_base<flowstar::Flowpipe, std::allocator<flowstar::Flowpipe> >::_M_clear() [133]
+-----------------------------------------------
+                0.00    0.00  147644/147644      yyparse() [1]
+[48]     0.0    0.00    0.00  147644         flowstar::Polynomial::Polynomial(flowstar::Monomial const&) [48]
+                0.00    0.00  147644/9849076     flowstar::Monomial::Monomial(flowstar::Monomial const&) [24]
+-----------------------------------------------
+                0.00    0.00     900/3600        flowstar::TaylorModel::TaylorModel(flowstar::Polynomial const&, flowstar::Interval const&) [54]
+                0.00    0.00     900/3600        std::vector<flowstar::TaylorModel, std::allocator<flowstar::TaylorModel> >::vector(std::vector<flowstar::TaylorModel, std::allocator<flowstar::TaylorModel> > const&) [55]
+                0.00    0.00    1800/3600        flowstar::TaylorModel::TaylorModel(flowstar::TaylorModel const&) [50]
+[49]     0.0    0.00    0.00    3600         flowstar::Polynomial::Polynomial(flowstar::Polynomial const&) [49]
+                0.00    0.00  147214/9849076     flowstar::Monomial::Monomial(flowstar::Monomial const&) [24]
+-----------------------------------------------
+                0.00    0.00    1800/1800        void std::vector<flowstar::TaylorModel, std::allocator<flowstar::TaylorModel> >::_M_realloc_insert<flowstar::TaylorModel const&>(__gnu_cxx::__normal_iterator<flowstar::TaylorModel*, std::vector<flowstar::TaylorModel, std::allocator<flowstar::TaylorModel> > >, flowstar::TaylorModel const&) [45]
+[50]     0.0    0.00    0.00    1800         flowstar::TaylorModel::TaylorModel(flowstar::TaylorModel const&) [50]
+                0.00    0.00    1800/3600        flowstar::Polynomial::Polynomial(flowstar::Polynomial const&) [49]
+                0.00    0.00    1800/14195210     flowstar::Interval::Interval(flowstar::Interval const&) [84]
+-----------------------------------------------
+                0.00    0.00     905/905         yyparse() [1]
+[51]     0.0    0.00    0.00     905         flowstar::ContinuousReachability::getIDForStateVar(std::string const&) const [51]
+                0.00    0.00     905/149752      std::_Rb_tree<std::string, std::pair<std::string const, int>, std::_Select1st<std::pair<std::string const, int> >, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::find(std::string const&) const [27]
+-----------------------------------------------
+                0.00    0.00     900/900         yyparse() [1]
+[52]     0.0    0.00    0.00     900         flowstar::TaylorModel::operator=(flowstar::TaylorModel const&) [52]
+                0.00    0.00     900/900         flowstar::Polynomial::operator=(flowstar::Polynomial const&) [53]
+                0.00    0.00     900/4658723     flowstar::Interval::operator=(flowstar::Interval const&) [20]
+-----------------------------------------------
+                0.00    0.00     900/900         flowstar::TaylorModel::operator=(flowstar::TaylorModel const&) [52]
+[53]     0.0    0.00    0.00     900         flowstar::Polynomial::operator=(flowstar::Polynomial const&) [53]
+                0.00    0.00     900/818988      flowstar::Polynomial::ctrunc_normal(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, int) [13]
+-----------------------------------------------
+                0.00    0.00     900/900         yyparse() [1]
+[54]     0.0    0.00    0.00     900         flowstar::TaylorModel::TaylorModel(flowstar::Polynomial const&, flowstar::Interval const&) [54]
+                0.00    0.00     900/3600        flowstar::Polynomial::Polynomial(flowstar::Polynomial const&) [49]
+                0.00    0.00     900/14195210     flowstar::Interval::Interval(flowstar::Interval const&) [84]
+-----------------------------------------------
+                0.00    0.00     300/300         yyparse() [1]
+[55]     0.0    0.00    0.00     300         std::vector<flowstar::TaylorModel, std::allocator<flowstar::TaylorModel> >::vector(std::vector<flowstar::TaylorModel, std::allocator<flowstar::TaylorModel> > const&) [55]
+                0.00    0.00     900/3600        flowstar::Polynomial::Polynomial(flowstar::Polynomial const&) [49]
+                0.00    0.00     900/14195210     flowstar::Interval::Interval(flowstar::Interval const&) [84]
+-----------------------------------------------
+                                                 <spontaneous>
+[56]     0.0    0.00    0.00                 flowstar::HybridReachability::~HybridReachability() [56]
+                0.00    0.00       1/1           flowstar::HybridSystem::~HybridSystem() [57]
+                0.00    0.00       1/16156231     flowstar::Interval::~Interval() [23]
+                0.00    0.00       7/15          std::_Rb_tree<std::string, std::pair<std::string const, int>, std::_Select1st<std::pair<std::string const, int> >, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::_M_erase(std::_Rb_tree_node<std::pair<std::string const, int> >*) [108]
+                0.00    0.00       7/7           flowstar::compareFactor(flowstar::FactorTab const&, flowstar::FactorTab const&) [113]
+                0.00    0.00       4/4           std::vector<std::string, std::allocator<std::string> >::~vector() [124]
+-----------------------------------------------
+                0.00    0.00       1/1           flowstar::HybridReachability::~HybridReachability() [56]
+[57]     0.0    0.00    0.00       1         flowstar::HybridSystem::~HybridSystem() [57]
+                0.00    0.00       1/605         flowstar::TaylorModelVec::~TaylorModelVec() [44]
+                0.00    0.00       1/1           flowstar::Flowpipe::~Flowpipe() [61]
+-----------------------------------------------
+                0.00    0.00       1/1           flowstar::ContinuousReachability::~ContinuousReachability() [47]
+[58]     0.0    0.00    0.00       1         flowstar::ContinuousSystem::~ContinuousSystem() [58]
+                0.00    0.00       2/605         flowstar::TaylorModelVec::~TaylorModelVec() [44]
+                0.00    0.00       5/5           flowstar::iMatrix::~iMatrix() [117]
+                0.00    0.00       4/4           flowstar::upMatrix::~upMatrix() [122]
+                0.00    0.00       1/1           flowstar::bMatrix::~bMatrix() [151]
+-----------------------------------------------
+                0.00    0.00       2/2           flowstar::ContinuousReachability::~ContinuousReachability() [47]
+[59]     0.0    0.00    0.00       2         std::_List_base<std::vector<flowstar::Interval, std::allocator<flowstar::Interval> >, std::allocator<std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > > >::_M_clear() [59]
+                0.00    0.00    1200/16156231     flowstar::Interval::~Interval() [23]
+-----------------------------------------------
+                                                 <spontaneous>
+[60]     0.0    0.00    0.00                 flowstar::ParseSetting::~ParseSetting() [60]
+                0.00    0.00       1/605         flowstar::TaylorModelVec::~TaylorModelVec() [44]
+                0.00    0.00       1/16156231     flowstar::Interval::~Interval() [23]
+-----------------------------------------------
+                0.00    0.00       1/1           flowstar::HybridSystem::~HybridSystem() [57]
+[61]     0.0    0.00    0.00       1         flowstar::Flowpipe::~Flowpipe() [61]
+                0.00    0.00       1/605         flowstar::TaylorModelVec::~TaylorModelVec() [44]
+                0.00    0.00       2/2           flowstar::TaylorModelVec::clear() [130]
+-----------------------------------------------
+                0.00    0.00       3/3           yyparse() [1]
+[62]     0.0    0.00    0.00       3         flowstar::ContinuousReachability::getIDForPar(std::string const&) const [62]
+                0.00    0.00       3/149752      std::_Rb_tree<std::string, std::pair<std::string const, int>, std::_Select1st<std::pair<std::string const, int> >, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::find(std::string const&) const [27]
+-----------------------------------------------
+                0.00    0.00       1/1           flowstar::ContinuousReachability::plot_2D_octagon_MATLAB(_IO_FILE*, bool) const [3]
+[63]     0.0    0.00    0.00       1         flowstar::Polyhedron::Polyhedron(flowstar::Matrix const&, flowstar::ColVector const&) [63]
+                0.00    0.00       4/4           void std::vector<flowstar::LinearConstraint, std::allocator<flowstar::LinearConstraint> >::_M_realloc_insert<flowstar::LinearConstraint const&>(__gnu_cxx::__normal_iterator<flowstar::LinearConstraint*, std::vector<flowstar::LinearConstraint, std::allocator<flowstar::LinearConstraint> > >, flowstar::LinearConstraint const&) [64]
+                0.00    0.00      56/16156231     flowstar::Interval::~Interval() [23]
+                0.00    0.00       8/8           flowstar::LinearConstraint::LinearConstraint(std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, flowstar::Interval const&) [67]
+                0.00    0.00       8/23          flowstar::LinearConstraint::~LinearConstraint() [66]
+                0.00    0.00       4/15          flowstar::LinearConstraint::LinearConstraint(flowstar::LinearConstraint const&) [65]
+                0.00    0.00      24/25          void std::vector<flowstar::Interval, std::allocator<flowstar::Interval> >::_M_realloc_insert<flowstar::Interval const&>(__gnu_cxx::__normal_iterator<flowstar::Interval*, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > >, flowstar::Interval const&) [70]
+                0.00    0.00      32/147678      flowstar::Interval::Interval(double) [91]
+                0.00    0.00      24/88          flowstar::Matrix::get(int, int) const [103]
+                0.00    0.00       8/8           flowstar::ColVector::get(int) const [112]
+                0.00    0.00       1/1           flowstar::Matrix::rows() const [157]
+                0.00    0.00       1/1           flowstar::Matrix::cols() const [156]
+-----------------------------------------------
+                0.00    0.00       4/4           flowstar::Polyhedron::Polyhedron(flowstar::Matrix const&, flowstar::ColVector const&) [63]
+[64]     0.0    0.00    0.00       4         void std::vector<flowstar::LinearConstraint, std::allocator<flowstar::LinearConstraint> >::_M_realloc_insert<flowstar::LinearConstraint const&>(__gnu_cxx::__normal_iterator<flowstar::LinearConstraint*, std::vector<flowstar::LinearConstraint, std::allocator<flowstar::LinearConstraint> > >, flowstar::LinearConstraint const&) [64]
+                0.00    0.00      11/15          flowstar::LinearConstraint::LinearConstraint(flowstar::LinearConstraint const&) [65]
+                0.00    0.00       7/23          flowstar::LinearConstraint::~LinearConstraint() [66]
+-----------------------------------------------
+                0.00    0.00       4/15          flowstar::Polyhedron::Polyhedron(flowstar::Matrix const&, flowstar::ColVector const&) [63]
+                0.00    0.00      11/15          void std::vector<flowstar::LinearConstraint, std::allocator<flowstar::LinearConstraint> >::_M_realloc_insert<flowstar::LinearConstraint const&>(__gnu_cxx::__normal_iterator<flowstar::LinearConstraint*, std::vector<flowstar::LinearConstraint, std::allocator<flowstar::LinearConstraint> > >, flowstar::LinearConstraint const&) [64]
+[65]     0.0    0.00    0.00      15         flowstar::LinearConstraint::LinearConstraint(flowstar::LinearConstraint const&) [65]
+                0.00    0.00      15/4658723     flowstar::Interval::operator=(flowstar::Interval const&) [20]
+                0.00    0.00      45/14195210     flowstar::Interval::Interval(flowstar::Interval const&) [84]
+                0.00    0.00      15/1633315     flowstar::Interval::Interval() [85]
+-----------------------------------------------
+                0.00    0.00       7/23          void std::vector<flowstar::LinearConstraint, std::allocator<flowstar::LinearConstraint> >::_M_realloc_insert<flowstar::LinearConstraint const&>(__gnu_cxx::__normal_iterator<flowstar::LinearConstraint*, std::vector<flowstar::LinearConstraint, std::allocator<flowstar::LinearConstraint> > >, flowstar::LinearConstraint const&) [64]
+                0.00    0.00       8/23          flowstar::Polyhedron::~Polyhedron() [69]
+                0.00    0.00       8/23          flowstar::Polyhedron::Polyhedron(flowstar::Matrix const&, flowstar::ColVector const&) [63]
+[66]     0.0    0.00    0.00      23         flowstar::LinearConstraint::~LinearConstraint() [66]
+                0.00    0.00      92/16156231     flowstar::Interval::~Interval() [23]
+-----------------------------------------------
+                0.00    0.00       8/8           flowstar::Polyhedron::Polyhedron(flowstar::Matrix const&, flowstar::ColVector const&) [63]
+[67]     0.0    0.00    0.00       8         flowstar::LinearConstraint::LinearConstraint(std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, flowstar::Interval const&) [67]
+                0.00    0.00       8/4658723     flowstar::Interval::operator=(flowstar::Interval const&) [20]
+                0.00    0.00      24/14195210     flowstar::Interval::Interval(flowstar::Interval const&) [84]
+                0.00    0.00       8/1633315     flowstar::Interval::Interval() [85]
+-----------------------------------------------
+                                                 <spontaneous>
+[68]     0.0    0.00    0.00                 flowstar::ParseResult::~ParseResult() [68]
+                0.00    0.00       1/13501       flowstar::Polynomial::~Polynomial() [46]
+                0.00    0.00       1/5823621     std::_List_base<flowstar::Monomial, std::allocator<flowstar::Monomial> >::_M_clear() [9]
+                0.00    0.00       2/16156231     flowstar::Interval::~Interval() [23]
+-----------------------------------------------
+                0.00    0.00       1/1           flowstar::ContinuousReachability::plot_2D_octagon_MATLAB(_IO_FILE*, bool) const [3]
+[69]     0.0    0.00    0.00       1         flowstar::Polyhedron::~Polyhedron() [69]
+                0.00    0.00       8/23          flowstar::LinearConstraint::~LinearConstraint() [66]
+-----------------------------------------------
+                0.00    0.00       1/25          flowstar::UnivariatePolynomial::UnivariatePolynomial() [73]
+                0.00    0.00      24/25          flowstar::Polyhedron::Polyhedron(flowstar::Matrix const&, flowstar::ColVector const&) [63]
+[70]     0.0    0.00    0.00      25         void std::vector<flowstar::Interval, std::allocator<flowstar::Interval> >::_M_realloc_insert<flowstar::Interval const&>(__gnu_cxx::__normal_iterator<flowstar::Interval*, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > >, flowstar::Interval const&) [70]
+                0.00    0.00      24/16156231     flowstar::Interval::~Interval() [23]
+                0.00    0.00      49/14195210     flowstar::Interval::Interval(flowstar::Interval const&) [84]
+-----------------------------------------------
+                0.00    0.00       1/1           flowstar::HybridReachability::HybridReachability() [72]
+[71]     0.0    0.00    0.00       1         flowstar::ReachabilitySetting::ReachabilitySetting() [71]
+                0.00    0.00       2/4658723     flowstar::Interval::operator=(flowstar::Interval const&) [20]
+                0.00    0.00       2/16156231     flowstar::Interval::~Interval() [23]
+                0.00    0.00       2/1633315     flowstar::Interval::Interval() [85]
+                0.00    0.00       2/147678      flowstar::Interval::Interval(double) [91]
+-----------------------------------------------
+                                                 <spontaneous>
+[72]     0.0    0.00    0.00                 flowstar::HybridReachability::HybridReachability() [72]
+                0.00    0.00       1/1           flowstar::ReachabilitySetting::ReachabilitySetting() [71]
+                0.00    0.00       1/1           flowstar::HybridSystem::HybridSystem() [148]
+-----------------------------------------------
+                                                 <spontaneous>
+[73]     0.0    0.00    0.00                 flowstar::UnivariatePolynomial::UnivariatePolynomial() [73]
+                0.00    0.00       1/16156231     flowstar::Interval::~Interval() [23]
+                0.00    0.00       1/25          void std::vector<flowstar::Interval, std::allocator<flowstar::Interval> >::_M_realloc_insert<flowstar::Interval const&>(__gnu_cxx::__normal_iterator<flowstar::Interval*, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > >, flowstar::Interval const&) [70]
+                0.00    0.00       1/1633315     flowstar::Interval::Interval() [85]
+-----------------------------------------------
+                                                 <spontaneous>
+[74]     0.0    0.00    0.00                 flowstar::ReachabilitySetting::~ReachabilitySetting() [74]
+                0.00    0.00       1/16156231     flowstar::Interval::~Interval() [23]
+-----------------------------------------------
+                                                 <spontaneous>
+[75]     0.0    0.00    0.00                 flowstar::UnivariatePolynomial::~UnivariatePolynomial() [75]
+                0.00    0.00       1/16156231     flowstar::Interval::~Interval() [23]
+-----------------------------------------------
+                0.00    0.00      24/14195210     flowstar::LinearConstraint::LinearConstraint(std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, flowstar::Interval const&) [67]
+                0.00    0.00      45/14195210     flowstar::LinearConstraint::LinearConstraint(flowstar::LinearConstraint const&) [65]
+                0.00    0.00      49/14195210     void std::vector<flowstar::Interval, std::allocator<flowstar::Interval> >::_M_realloc_insert<flowstar::Interval const&>(__gnu_cxx::__normal_iterator<flowstar::Interval*, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > >, flowstar::Interval const&) [70]
+                0.00    0.00     900/14195210     flowstar::TaylorModel::TaylorModel(flowstar::Polynomial const&, flowstar::Interval const&) [54]
+                0.00    0.00     900/14195210     std::vector<flowstar::TaylorModel, std::allocator<flowstar::TaylorModel> >::vector(std::vector<flowstar::TaylorModel, std::allocator<flowstar::TaylorModel> > const&) [55]
+                0.00    0.00    1200/14195210     yyparse() [1]
+                0.00    0.00    1800/14195210     flowstar::TaylorModel::TaylorModel(flowstar::TaylorModel const&) [50]
+                0.00    0.00  147644/14195210     flowstar::Monomial::Monomial(flowstar::Interval const&, std::vector<int, std::allocator<int> > const&) [26]
+                0.00    0.00 4193572/14195210     flowstar::HornerForm::HornerForm(flowstar::HornerForm const&) [17]
+                0.00    0.00 9849076/14195210     flowstar::Monomial::Monomial(flowstar::Monomial const&) [24]
+[84]     0.0    0.00    0.00 14195210         flowstar::Interval::Interval(flowstar::Interval const&) [84]
+-----------------------------------------------
+                0.00    0.00       1/1633315     flowstar::UnivariatePolynomial::UnivariatePolynomial() [73]
+                0.00    0.00       1/1633315     flowstar::ParseSetting::ParseSetting() [337]
+                0.00    0.00       1/1633315     flowstar::ContinuousReachability::ContinuousReachability() [491]
+                0.00    0.00       2/1633315     flowstar::ParseResult::ParseResult() [279]
+                0.00    0.00       2/1633315     flowstar::ReachabilitySetting::ReachabilitySetting() [71]
+                0.00    0.00       8/1633315     flowstar::LinearConstraint::LinearConstraint(std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, flowstar::Interval const&) [67]
+                0.00    0.00      15/1633315     flowstar::LinearConstraint::LinearConstraint(flowstar::LinearConstraint const&) [65]
+                0.00    0.00    1500/1633315     yyparse() [1]
+                0.00    0.00    4800/1633315     flowstar::rho(flowstar::TaylorModelVec const&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) [4]
+                0.00    0.00    7200/1633315     flowstar::Polynomial::mul_assign(flowstar::Interval const&) [38]
+                0.00    0.00    9900/1633315     flowstar::TaylorModel::TaylorModel() [96]
+                0.00    0.00   12000/1633315     flowstar::Polynomial::intEval(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) const [5]
+                0.00    0.00   73607/1633315     flowstar::Polynomial::Polynomial(flowstar::Interval const&, int) [31]
+                0.00    0.00   73607/1633315     flowstar::Monomial::Monomial(flowstar::Interval const&, int) [32]
+                0.00    0.00   97120/1633315     flowstar::Polynomial::operator+=(flowstar::Polynomial const&) [10]
+                0.00    0.00  319535/1633315     flowstar::Polynomial::operator*=(flowstar::Polynomial const&) [8]
+                0.00    0.00  512208/1633315     flowstar::HornerForm::intEval(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) const [30]
+                0.00    0.00  521808/1633315     flowstar::Polynomial::toHornerForm(flowstar::HornerForm&) const [7]
+[85]     0.0    0.00    0.00 1633315         flowstar::Interval::Interval() [85]
+-----------------------------------------------
+                0.00    0.00   73607/693370      flowstar::Polynomial::Polynomial(flowstar::Interval const&, int) [31]
+                0.00    0.00  300228/693370      flowstar::Polynomial::mul_assign(flowstar::Interval const&) [38]
+                0.00    0.00  319535/693370      flowstar::Polynomial::operator*=(flowstar::Polynomial const&) [8]
+[86]     0.0    0.00    0.00  693370         flowstar::Interval::subseteq(flowstar::Interval const&) const [86]
+-----------------------------------------------
+                0.00    0.00  590576/590576      yyparse() [1]
+[87]     0.0    0.00    0.00  590576         void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) [87]
+-----------------------------------------------
+                0.00    0.00    9600/531408      flowstar::Polynomial::intEval(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) const [5]
+                0.00    0.00    9600/531408      flowstar::rho(flowstar::TaylorModelVec const&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) [4]
+                0.00    0.00  512208/531408      flowstar::HornerForm::intEval(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) const [30]
+[88]     0.0    0.00    0.00  531408         flowstar::Interval::operator+=(flowstar::Interval const&) [88]
+-----------------------------------------------
+                0.00    0.00  524208/524208      flowstar::Polynomial::toHornerForm(flowstar::HornerForm&) const [7]
+[89]     0.0    0.00    0.00  524208         flowstar::Interval::set(double, double) [89]
+-----------------------------------------------
+                0.00    0.00  149754/149754      yyparse() [1]
+[90]     0.0    0.00    0.00  149754         parseUnivariatePolynomial(std::string const&) [90]
+-----------------------------------------------
+                0.00    0.00       2/147678      flowstar::ReachabilitySetting::ReachabilitySetting() [71]
+                0.00    0.00      32/147678      flowstar::Polyhedron::Polyhedron(flowstar::Matrix const&, flowstar::ColVector const&) [63]
+                0.00    0.00  147644/147678      yyparse() [1]
+[91]     0.0    0.00    0.00  147678         flowstar::Interval::Interval(double) [91]
+-----------------------------------------------
+                0.00    0.00       1/101812      flowstar::ParseResult::ParseResult() [279]
+                0.00    0.00    9900/101812      flowstar::TaylorModel::TaylorModel() [96]
+                0.00    0.00   91911/101812      yyparse() [1]
+[92]     0.0    0.00    0.00  101812         flowstar::Polynomial::Polynomial() [92]
+-----------------------------------------------
+                0.00    0.00   97120/97120       flowstar::Polynomial::operator+=(flowstar::Polynomial const&) [10]
+[93]     0.0    0.00    0.00   97120         flowstar::Interval::operator+(flowstar::Interval const&) const [93]
+-----------------------------------------------
+                0.00    0.00   75708/75708       yyparse() [1]
+[94]     0.0    0.00    0.00   75708         flowstar::Interval::Interval(double, double) [94]
+-----------------------------------------------
+                0.00    0.00   14400/14400       flowstar::ContinuousReachability::plot_2D_octagon_MATLAB(_IO_FILE*, bool) const [3]
+[95]     0.0    0.00    0.00   14400         flowstar::Interval::midpoint() const [95]
+-----------------------------------------------
+                0.00    0.00     300/9900        yyparse() [1]
+                0.00    0.00    9600/9900        flowstar::rho(flowstar::TaylorModelVec const&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) [4]
+[96]     0.0    0.00    0.00    9900         flowstar::TaylorModel::TaylorModel() [96]
+                0.00    0.00    9900/1633315     flowstar::Interval::Interval() [85]
+                0.00    0.00    9900/101812      flowstar::Polynomial::Polynomial() [92]
+-----------------------------------------------
+                0.00    0.00    7200/7200        flowstar::TaylorModel::mul(flowstar::TaylorModel&, flowstar::Interval const&) const [36]
+[97]     0.0    0.00    0.00    7200         flowstar::Interval::operator*(flowstar::Interval const&) const [97]
+-----------------------------------------------
+                0.00    0.00    3000/3000        flowstar::ContinuousReachability::plot_2D_octagon_MATLAB(_IO_FILE*, bool) const [3]
+[98]     0.0    0.00    0.00    3000         void std::vector<double, std::allocator<double> >::_M_realloc_insert<double const&>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, double const&) [98]
+-----------------------------------------------
+                0.00    0.00    2400/2400        flowstar::rho(flowstar::TaylorModelVec const&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) [4]
+[99]     0.0    0.00    0.00    2400         flowstar::Interval::sup(flowstar::Interval&) const [99]
+-----------------------------------------------
+                0.00    0.00     683/683         yylex() [15]
+[100]    0.0    0.00    0.00     683         yy_get_next_buffer() [100]
+                0.00    0.00       1/1           yyrestart(_IO_FILE*) [147]
+-----------------------------------------------
+                0.00    0.00       2/304         flowstar::Flowpipe::Flowpipe() [152]
+                0.00    0.00       2/304         flowstar::ContinuousSystem::ContinuousSystem() [149]
+                0.00    0.00     300/304         yyparse() [1]
+[101]    0.0    0.00    0.00     304         flowstar::TaylorModelVec::TaylorModelVec() [101]
+-----------------------------------------------
+                0.00    0.00     300/300         yyparse() [1]
+[102]    0.0    0.00    0.00     300         flowstar::TaylorModelVec::TaylorModelVec(flowstar::TaylorModelVec const&) [102]
+-----------------------------------------------
+                0.00    0.00      24/88          flowstar::Polyhedron::Polyhedron(flowstar::Matrix const&, flowstar::ColVector const&) [63]
+                0.00    0.00      64/88          flowstar::ContinuousReachability::plot_2D_octagon_MATLAB(_IO_FILE*, bool) const [3]
+[103]    0.0    0.00    0.00      88         flowstar::Matrix::get(int, int) const [103]
+-----------------------------------------------
+                0.00    0.00      88/88          flowstar::ContinuousReachability::plot_2D_octagon_MATLAB(_IO_FILE*, bool) const [3]
+[104]    0.0    0.00    0.00      88         flowstar::RowVector::get(int) const [104]
+-----------------------------------------------
+                0.00    0.00      36/36          flowstar::ContinuousReachability::plot_2D_octagon_MATLAB(_IO_FILE*, bool) const [3]
+[105]    0.0    0.00    0.00      36         flowstar::Matrix::set(double, int, int) [105]
+-----------------------------------------------
+                0.00    0.00       2/18          std::vector<flowstar::RowVector, std::allocator<flowstar::RowVector> >::insert(__gnu_cxx::__normal_iterator<flowstar::RowVector const*, std::vector<flowstar::RowVector, std::allocator<flowstar::RowVector> > >, flowstar::RowVector const&) [129]
+                0.00    0.00       7/18          void std::vector<flowstar::RowVector, std::allocator<flowstar::RowVector> >::_M_realloc_insert<flowstar::RowVector const&>(__gnu_cxx::__normal_iterator<flowstar::RowVector*, std::vector<flowstar::RowVector, std::allocator<flowstar::RowVector> > >, flowstar::RowVector const&) [123]
+                0.00    0.00       9/18          flowstar::ContinuousReachability::plot_2D_octagon_MATLAB(_IO_FILE*, bool) const [3]
+[106]    0.0    0.00    0.00      18         flowstar::RowVector::~RowVector() [106]
+-----------------------------------------------
+                0.00    0.00       2/17          flowstar::ContinuousReachability::plot_2D_octagon_MATLAB(_IO_FILE*, bool) const [3]
+                0.00    0.00       4/17          std::vector<flowstar::RowVector, std::allocator<flowstar::RowVector> >::insert(__gnu_cxx::__normal_iterator<flowstar::RowVector const*, std::vector<flowstar::RowVector, std::allocator<flowstar::RowVector> > >, flowstar::RowVector const&) [129]
+                0.00    0.00      11/17          void std::vector<flowstar::RowVector, std::allocator<flowstar::RowVector> >::_M_realloc_insert<flowstar::RowVector const&>(__gnu_cxx::__normal_iterator<flowstar::RowVector*, std::vector<flowstar::RowVector, std::allocator<flowstar::RowVector> > >, flowstar::RowVector const&) [123]
+[107]    0.0    0.00    0.00      17         flowstar::RowVector::RowVector(flowstar::RowVector const&) [107]
+-----------------------------------------------
+                0.00    0.00       7/15          flowstar::HybridReachability::~HybridReachability() [56]
+                0.00    0.00       8/15          flowstar::ContinuousReachability::~ContinuousReachability() [47]
+[108]    0.0    0.00    0.00      15         std::_Rb_tree<std::string, std::pair<std::string const, int>, std::_Select1st<std::pair<std::string const, int> >, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::_M_erase(std::_Rb_tree_node<std::pair<std::string const, int> >*) [108]
+-----------------------------------------------
+                0.00    0.00       3/12          flowstar::ContinuousReachability::declareTMVar(std::string const&) [120]
+                0.00    0.00       3/12          flowstar::ContinuousReachability::declareStateVar(std::string const&) [128]
+                0.00    0.00       3/12          flowstar::HybridReachability::declareStateVar(std::string const&) [127]
+                0.00    0.00       3/12          flowstar::HybridReachability::declareTMVar(std::string const&) [119]
+[109]    0.0    0.00    0.00      12         void std::vector<std::string, std::allocator<std::string> >::_M_realloc_insert<std::string const&>(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, std::string const&) [109]
+-----------------------------------------------
+                0.00    0.00       3/10          flowstar::ContinuousReachability::declareStateVar(std::string const&) [128]
+                0.00    0.00       3/10          flowstar::HybridReachability::declareStateVar(std::string const&) [127]
+                0.00    0.00       4/10          flowstar::HybridReachability::declareTMVar(std::string const&) [119]
+[110]    0.0    0.00    0.00      10         std::_Rb_tree<std::string, std::pair<std::string const, int>, std::_Select1st<std::pair<std::string const, int> >, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::find(std::string const&) [110]
+-----------------------------------------------
+                0.00    0.00       8/8           flowstar::ContinuousReachability::plot_2D_octagon_MATLAB(_IO_FILE*, bool) const [3]
+[111]    0.0    0.00    0.00       8         flowstar::Matrix::row(flowstar::RowVector&, int) const [111]
+-----------------------------------------------
+                0.00    0.00       8/8           flowstar::Polyhedron::Polyhedron(flowstar::Matrix const&, flowstar::ColVector const&) [63]
+[112]    0.0    0.00    0.00       8         flowstar::ColVector::get(int) const [112]
+-----------------------------------------------
+                0.00    0.00       7/7           flowstar::HybridReachability::~HybridReachability() [56]
+[113]    0.0    0.00    0.00       7         flowstar::compareFactor(flowstar::FactorTab const&, flowstar::FactorTab const&) [113]
+-----------------------------------------------
+                0.00    0.00       3/7           flowstar::ContinuousReachability::declareStateVar(std::string const&) [128]
+                0.00    0.00       4/7           flowstar::ContinuousReachability::declareTMVar(std::string const&) [120]
+[114]    0.0    0.00    0.00       7         flowstar::compute_int_mat2_pow(std::vector<flowstar::iMatrix2, std::allocator<flowstar::iMatrix2> >&, flowstar::iMatrix2 const&, int) [114]
+                0.00    0.00       2/4           std::_Rb_tree<std::string, std::pair<std::string const, int>, std::_Select1st<std::pair<std::string const, int> >, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::_M_get_insert_unique_pos(std::string const&) [126]
+-----------------------------------------------
+                0.00    0.00       3/7           flowstar::HybridReachability::declareStateVar(std::string const&) [127]
+                0.00    0.00       4/7           flowstar::HybridReachability::declareTMVar(std::string const&) [119]
+[115]    0.0    0.00    0.00       7         std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::operator[](std::string const&) [115]
+                0.00    0.00       2/4           std::_Rb_tree<std::string, std::pair<std::string const, int>, std::_Select1st<std::pair<std::string const, int> >, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::_M_get_insert_unique_pos(std::string const&) [126]
+-----------------------------------------------
+                0.00    0.00       5/5           flowstar::ContinuousSystem::ContinuousSystem() [149]
+[116]    0.0    0.00    0.00       5         flowstar::iMatrix::iMatrix() [116]
+-----------------------------------------------
+                0.00    0.00       5/5           flowstar::ContinuousSystem::~ContinuousSystem() [58]
+[117]    0.0    0.00    0.00       5         flowstar::iMatrix::~iMatrix() [117]
+-----------------------------------------------
+                0.00    0.00       5/5           std::vector<flowstar::RowVector, std::allocator<flowstar::RowVector> >::insert(__gnu_cxx::__normal_iterator<flowstar::RowVector const*, std::vector<flowstar::RowVector, std::allocator<flowstar::RowVector> > >, flowstar::RowVector const&) [129]
+[118]    0.0    0.00    0.00       5         flowstar::RowVector::operator=(flowstar::RowVector const&) [118]
+-----------------------------------------------
+                0.00    0.00       4/4           yyparse() [1]
+[119]    0.0    0.00    0.00       4         flowstar::HybridReachability::declareTMVar(std::string const&) [119]
+                0.00    0.00       4/10          std::_Rb_tree<std::string, std::pair<std::string const, int>, std::_Select1st<std::pair<std::string const, int> >, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::find(std::string const&) [110]
+                0.00    0.00       4/7           std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::operator[](std::string const&) [115]
+                0.00    0.00       3/12          void std::vector<std::string, std::allocator<std::string> >::_M_realloc_insert<std::string const&>(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, std::string const&) [109]
+-----------------------------------------------
+                0.00    0.00       4/4           yyparse() [1]
+[120]    0.0    0.00    0.00       4         flowstar::ContinuousReachability::declareTMVar(std::string const&) [120]
+                0.00    0.00       4/7           flowstar::compute_int_mat2_pow(std::vector<flowstar::iMatrix2, std::allocator<flowstar::iMatrix2> >&, flowstar::iMatrix2 const&, int) [114]
+                0.00    0.00       3/12          void std::vector<std::string, std::allocator<std::string> >::_M_realloc_insert<std::string const&>(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, std::string const&) [109]
+-----------------------------------------------
+                0.00    0.00       4/4           flowstar::ContinuousSystem::ContinuousSystem() [149]
+[121]    0.0    0.00    0.00       4         flowstar::upMatrix::upMatrix() [121]
+-----------------------------------------------
+                0.00    0.00       4/4           flowstar::ContinuousSystem::~ContinuousSystem() [58]
+[122]    0.0    0.00    0.00       4         flowstar::upMatrix::~upMatrix() [122]
+-----------------------------------------------
+                0.00    0.00       1/4           std::vector<flowstar::RowVector, std::allocator<flowstar::RowVector> >::insert(__gnu_cxx::__normal_iterator<flowstar::RowVector const*, std::vector<flowstar::RowVector, std::allocator<flowstar::RowVector> > >, flowstar::RowVector const&) [129]
+                0.00    0.00       3/4           flowstar::ContinuousReachability::plot_2D_octagon_MATLAB(_IO_FILE*, bool) const [3]
+[123]    0.0    0.00    0.00       4         void std::vector<flowstar::RowVector, std::allocator<flowstar::RowVector> >::_M_realloc_insert<flowstar::RowVector const&>(__gnu_cxx::__normal_iterator<flowstar::RowVector*, std::vector<flowstar::RowVector, std::allocator<flowstar::RowVector> > >, flowstar::RowVector const&) [123]
+                0.00    0.00      11/17          flowstar::RowVector::RowVector(flowstar::RowVector const&) [107]
+                0.00    0.00       7/18          flowstar::RowVector::~RowVector() [106]
+-----------------------------------------------
+                0.00    0.00       4/4           flowstar::HybridReachability::~HybridReachability() [56]
+[124]    0.0    0.00    0.00       4         std::vector<std::string, std::allocator<std::string> >::~vector() [124]
+-----------------------------------------------
+                0.00    0.00       4/4           yyparse() [1]
+[125]    0.0    0.00    0.00       4         std::vector<int, std::allocator<int> >::push_back(int const&) [125]
+-----------------------------------------------
+                0.00    0.00       2/4           flowstar::compute_int_mat2_pow(std::vector<flowstar::iMatrix2, std::allocator<flowstar::iMatrix2> >&, flowstar::iMatrix2 const&, int) [114]
+                0.00    0.00       2/4           std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::operator[](std::string const&) [115]
+[126]    0.0    0.00    0.00       4         std::_Rb_tree<std::string, std::pair<std::string const, int>, std::_Select1st<std::pair<std::string const, int> >, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::_M_get_insert_unique_pos(std::string const&) [126]
+-----------------------------------------------
+                0.00    0.00       3/3           yyparse() [1]
+[127]    0.0    0.00    0.00       3         flowstar::HybridReachability::declareStateVar(std::string const&) [127]
+                0.00    0.00       3/10          std::_Rb_tree<std::string, std::pair<std::string const, int>, std::_Select1st<std::pair<std::string const, int> >, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::find(std::string const&) [110]
+                0.00    0.00       3/7           std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::operator[](std::string const&) [115]
+                0.00    0.00       3/12          void std::vector<std::string, std::allocator<std::string> >::_M_realloc_insert<std::string const&>(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, std::string const&) [109]
+-----------------------------------------------
+                0.00    0.00       3/3           yyparse() [1]
+[128]    0.0    0.00    0.00       3         flowstar::ContinuousReachability::declareStateVar(std::string const&) [128]
+                0.00    0.00       3/10          std::_Rb_tree<std::string, std::pair<std::string const, int>, std::_Select1st<std::pair<std::string const, int> >, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::find(std::string const&) [110]
+                0.00    0.00       3/7           flowstar::compute_int_mat2_pow(std::vector<flowstar::iMatrix2, std::allocator<flowstar::iMatrix2> >&, flowstar::iMatrix2 const&, int) [114]
+                0.00    0.00       3/12          void std::vector<std::string, std::allocator<std::string> >::_M_realloc_insert<std::string const&>(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, std::string const&) [109]
+-----------------------------------------------
+                0.00    0.00       3/3           flowstar::ContinuousReachability::plot_2D_octagon_MATLAB(_IO_FILE*, bool) const [3]
+[129]    0.0    0.00    0.00       3         std::vector<flowstar::RowVector, std::allocator<flowstar::RowVector> >::insert(__gnu_cxx::__normal_iterator<flowstar::RowVector const*, std::vector<flowstar::RowVector, std::allocator<flowstar::RowVector> > >, flowstar::RowVector const&) [129]
+                0.00    0.00       5/5           flowstar::RowVector::operator=(flowstar::RowVector const&) [118]
+                0.00    0.00       4/17          flowstar::RowVector::RowVector(flowstar::RowVector const&) [107]
+                0.00    0.00       2/18          flowstar::RowVector::~RowVector() [106]
+                0.00    0.00       1/4           void std::vector<flowstar::RowVector, std::allocator<flowstar::RowVector> >::_M_realloc_insert<flowstar::RowVector const&>(__gnu_cxx::__normal_iterator<flowstar::RowVector*, std::vector<flowstar::RowVector, std::allocator<flowstar::RowVector> > >, flowstar::RowVector const&) [123]
+-----------------------------------------------
+                0.00    0.00       2/2           flowstar::Flowpipe::~Flowpipe() [61]
+[130]    0.0    0.00    0.00       2         flowstar::TaylorModelVec::clear() [130]
+-----------------------------------------------
+                0.00    0.00       2/2           flowstar::ContinuousReachability::plot_2D_octagon_MATLAB(_IO_FILE*, bool) const [3]
+[131]    0.0    0.00    0.00       2         flowstar::Matrix::Matrix(int, int) [131]
+-----------------------------------------------
+                0.00    0.00       2/2           flowstar::ContinuousReachability::plot_2D_octagon_MATLAB(_IO_FILE*, bool) const [3]
+[132]    0.0    0.00    0.00       2         flowstar::Matrix::~Matrix() [132]
+-----------------------------------------------
+                0.00    0.00       2/2           flowstar::ContinuousReachability::~ContinuousReachability() [47]
+[133]    0.0    0.00    0.00       2         std::_List_base<flowstar::Flowpipe, std::allocator<flowstar::Flowpipe> >::_M_clear() [133]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [1607]
+[134]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN8flowstar10PolyhedronC2Ev [134]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [1607]
+[135]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN8flowstar13factorial_recE [135]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [1607]
+[136]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN8flowstar16LinearConstraintC2Ev [136]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [1607]
+[137]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN8flowstar6MatrixC2Ev [137]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [1607]
+[138]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN8flowstar8FlowpipeC2Ev [138]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [1607]
+[139]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN8flowstar8MonomialC2Ev [139]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [1607]
+[140]    0.0    0.00    0.00       1         _GLOBAL__sub_I__ZN8flowstar8ResetMapC2Ev [140]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [1607]
+[141]    0.0    0.00    0.00       1         _GLOBAL__sub_I_err [141]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [1607]
+[142]    0.0    0.00    0.00       1         _GLOBAL__sub_I_intervalNumPrecision [142]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [1607]
+[143]    0.0    0.00    0.00       1         _GLOBAL__sub_I_main [143]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [1607]
+[144]    0.0    0.00    0.00       1         _GLOBAL__sub_I_parseSetting [144]
+-----------------------------------------------
+                0.00    0.00       1/1           __libc_csu_init [1607]
+[145]    0.0    0.00    0.00       1         _GLOBAL__sub_I_yyleng [145]
+-----------------------------------------------
+                0.00    0.00       1/1           yylex() [15]
+[146]    0.0    0.00    0.00       1         yy_create_buffer(_IO_FILE*, int) [146]
+-----------------------------------------------
+                0.00    0.00       1/1           yy_get_next_buffer() [100]
+[147]    0.0    0.00    0.00       1         yyrestart(_IO_FILE*) [147]
+-----------------------------------------------
+                0.00    0.00       1/1           flowstar::HybridReachability::HybridReachability() [72]
+[148]    0.0    0.00    0.00       1         flowstar::HybridSystem::HybridSystem() [148]
+                0.00    0.00       1/1           flowstar::Flowpipe::Flowpipe() [152]
+-----------------------------------------------
+                0.00    0.00       1/1           flowstar::ContinuousReachability::ContinuousReachability() [491]
+[149]    0.0    0.00    0.00       1         flowstar::ContinuousSystem::ContinuousSystem() [149]
+                0.00    0.00       5/5           flowstar::iMatrix::iMatrix() [116]
+                0.00    0.00       4/4           flowstar::upMatrix::upMatrix() [121]
+                0.00    0.00       2/304         flowstar::TaylorModelVec::TaylorModelVec() [101]
+                0.00    0.00       1/1           flowstar::bMatrix::bMatrix() [150]
+-----------------------------------------------
+                0.00    0.00       1/1           flowstar::ContinuousSystem::ContinuousSystem() [149]
+[150]    0.0    0.00    0.00       1         flowstar::bMatrix::bMatrix() [150]
+-----------------------------------------------
+                0.00    0.00       1/1           flowstar::ContinuousSystem::~ContinuousSystem() [58]
+[151]    0.0    0.00    0.00       1         flowstar::bMatrix::~bMatrix() [151]
+-----------------------------------------------
+                0.00    0.00       1/1           flowstar::HybridSystem::HybridSystem() [148]
+[152]    0.0    0.00    0.00       1         flowstar::Flowpipe::Flowpipe() [152]
+                0.00    0.00       2/304         flowstar::TaylorModelVec::TaylorModelVec() [101]
+-----------------------------------------------
+                0.00    0.00       1/1           flowstar::ContinuousReachability::plot_2D_octagon_MATLAB(_IO_FILE*, bool) const [3]
+[153]    0.0    0.00    0.00       1         flowstar::ColVector::ColVector(int) [153]
+-----------------------------------------------
+                0.00    0.00       1/1           flowstar::ContinuousReachability::plot_2D_octagon_MATLAB(_IO_FILE*, bool) const [3]
+[154]    0.0    0.00    0.00       1         flowstar::ColVector::~ColVector() [154]
+-----------------------------------------------
+                0.00    0.00       1/1           flowstar::ContinuousReachability::plot_2D_octagon_MATLAB(_IO_FILE*, bool) const [3]
+[155]    0.0    0.00    0.00       1         flowstar::RowVector::RowVector(int) [155]
+-----------------------------------------------
+                0.00    0.00       1/1           flowstar::Polyhedron::Polyhedron(flowstar::Matrix const&, flowstar::ColVector const&) [63]
+[156]    0.0    0.00    0.00       1         flowstar::Matrix::cols() const [156]
+-----------------------------------------------
+                0.00    0.00       1/1           flowstar::Polyhedron::Polyhedron(flowstar::Matrix const&, flowstar::ColVector const&) [63]
+[157]    0.0    0.00    0.00       1         flowstar::Matrix::rows() const [157]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2016 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+ [134] _GLOBAL__sub_I__ZN8flowstar10PolyhedronC2Ev (Geometry.cpp) [149] flowstar::ContinuousSystem::ContinuousSystem() [43] flowstar::Polynomial::mul(flowstar::Polynomial&, flowstar::Interval const&) const
+ [135] _GLOBAL__sub_I__ZN8flowstar13factorial_recE (Polynomial.cpp) [58] flowstar::ContinuousSystem::~ContinuousSystem() [11] flowstar::Polynomial::pow(flowstar::Polynomial&, int) const
+ [136] _GLOBAL__sub_I__ZN8flowstar16LinearConstraintC2Ev (Constraints.cpp) [67] flowstar::LinearConstraint::LinearConstraint(std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, flowstar::Interval const&) [5] flowstar::Polynomial::intEval(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) const
+ [137] _GLOBAL__sub_I__ZN8flowstar6MatrixC2Ev (Matrix.cpp) [65] flowstar::LinearConstraint::LinearConstraint(flowstar::LinearConstraint const&) [36] flowstar::TaylorModel::mul(flowstar::TaylorModel&, flowstar::Interval const&) const
+ [138] _GLOBAL__sub_I__ZN8flowstar8FlowpipeC2Ev (Continuous.cpp) [66] flowstar::LinearConstraint::~LinearConstraint() [6] flowstar::TaylorModel::intEval(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) const
+ [139] _GLOBAL__sub_I__ZN8flowstar8MonomialC2Ev (Monomial.cpp) [119] flowstar::HybridReachability::declareTMVar(std::string const&) [62] flowstar::ContinuousReachability::getIDForPar(std::string const&) const
+ [140] _GLOBAL__sub_I__ZN8flowstar8ResetMapC2Ev (Hybrid.cpp) [127] flowstar::HybridReachability::declareStateVar(std::string const&) [28] flowstar::ContinuousReachability::getIDForTMVar(std::string const&) const
+ [141] _GLOBAL__sub_I_err (modelParser.y) [71] flowstar::ReachabilitySetting::ReachabilitySetting() [51] flowstar::ContinuousReachability::getIDForStateVar(std::string const&) const
+ [142] _GLOBAL__sub_I_intervalNumPrecision (Interval.cpp) [114] flowstar::compute_int_mat2_pow(std::vector<flowstar::iMatrix2, std::allocator<flowstar::iMatrix2> >&, flowstar::iMatrix2 const&, int) [3] flowstar::ContinuousReachability::plot_2D_octagon_MATLAB(_IO_FILE*, bool) const
+ [143] _GLOBAL__sub_I_main (modelParser.cpp) [120] flowstar::ContinuousReachability::declareTMVar(std::string const&) [103] flowstar::Matrix::get(int, int) const
+ [144] _GLOBAL__sub_I_parseSetting (TaylorModel.cpp) [128] flowstar::ContinuousReachability::declareStateVar(std::string const&) [111] flowstar::Matrix::row(flowstar::RowVector&, int) const
+ [145] _GLOBAL__sub_I_yyleng (modelLexer.l) [2] flowstar::ContinuousReachability::plot_2D(bool) [156] flowstar::Matrix::cols() const
+ [146] yy_create_buffer(_IO_FILE*, int) [4] flowstar::rho(flowstar::TaylorModelVec const&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) [157] flowstar::Matrix::rows() const
+  [90] parseUnivariatePolynomial(std::string const&) [105] flowstar::Matrix::set(double, int, int) [99] flowstar::Interval::sup(flowstar::Interval&) const
+  [15] yylex()               [131] flowstar::Matrix::Matrix(int, int) [95] flowstar::Interval::midpoint() const
+   [1] yyparse()             [132] flowstar::Matrix::~Matrix() [86] flowstar::Interval::subseteq(flowstar::Interval const&) const
+ [147] yyrestart(_IO_FILE*)  [150] flowstar::bMatrix::bMatrix() [97] flowstar::Interval::operator*(flowstar::Interval const&) const
+ [100] yy_get_next_buffer() (lex.yy.c) [151] flowstar::bMatrix::~bMatrix() [93] flowstar::Interval::operator+(flowstar::Interval const&) const
+  [17] flowstar::HornerForm::HornerForm(flowstar::HornerForm const&) [116] flowstar::iMatrix::iMatrix() [33] flowstar::Monomial::operator==(flowstar::Monomial const&) const
+  [22] flowstar::HornerForm::~HornerForm() [117] flowstar::iMatrix::~iMatrix() [19] flowstar::Monomial::operator<(flowstar::Monomial const&) const
+  [63] flowstar::Polyhedron::Polyhedron(flowstar::Matrix const&, flowstar::ColVector const&) [152] flowstar::Flowpipe::Flowpipe() [112] flowstar::ColVector::get(int) const
+  [69] flowstar::Polyhedron::~Polyhedron() [61] flowstar::Flowpipe::~Flowpipe() [104] flowstar::RowVector::get(int) const
+  [38] flowstar::Polynomial::mul_assign(flowstar::Interval const&) [89] flowstar::Interval::set(double, double) [27] std::_Rb_tree<std::string, std::pair<std::string const, int>, std::_Select1st<std::pair<std::string const, int> >, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::find(std::string const&) const
+  [13] flowstar::Polynomial::ctrunc_normal(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&, int) [91] flowstar::Interval::Interval(double) [133] std::_List_base<flowstar::Flowpipe, std::allocator<flowstar::Flowpipe> >::_M_clear()
+  [39] flowstar::Polynomial::clear() [94] flowstar::Interval::Interval(double, double) [34] std::_List_base<flowstar::Interval, std::allocator<flowstar::Interval> >::_M_clear()
+  [31] flowstar::Polynomial::Polynomial(flowstar::Interval const&, int) [84] flowstar::Interval::Interval(flowstar::Interval const&) [9] std::_List_base<flowstar::Monomial, std::allocator<flowstar::Monomial> >::_M_clear()
+  [49] flowstar::Polynomial::Polynomial(flowstar::Polynomial const&) [85] flowstar::Interval::Interval() [59] std::_List_base<std::vector<flowstar::Interval, std::allocator<flowstar::Interval> >, std::allocator<std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > > >::_M_clear()
+  [92] flowstar::Polynomial::Polynomial() [23] flowstar::Interval::~Interval() [115] std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::operator[](std::string const&)
+  [48] flowstar::Polynomial::Polynomial(flowstar::Monomial const&) [20] flowstar::Interval::operator=(flowstar::Interval const&) [12] std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >::sort()
+  [21] flowstar::Polynomial::~Polynomial() [25] flowstar::Interval::operator*=(flowstar::Interval const&) [29] std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >::merge(std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >&&)
+  [46] flowstar::Polynomial::~Polynomial() [88] flowstar::Interval::operator+=(flowstar::Interval const&) [35] std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >::list(std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> > const&)
+  [53] flowstar::Polynomial::operator=(flowstar::Polynomial const&) [26] flowstar::Monomial::Monomial(flowstar::Interval const&, std::vector<int, std::allocator<int> > const&) [14] void std::vector<flowstar::HornerForm, std::allocator<flowstar::HornerForm> >::_M_realloc_insert<flowstar::HornerForm const&>(__gnu_cxx::__normal_iterator<flowstar::HornerForm*, std::vector<flowstar::HornerForm, std::allocator<flowstar::HornerForm> > >, flowstar::HornerForm const&)
+   [8] flowstar::Polynomial::operator*=(flowstar::Polynomial const&) [32] flowstar::Monomial::Monomial(flowstar::Interval const&, int) [45] void std::vector<flowstar::TaylorModel, std::allocator<flowstar::TaylorModel> >::_M_realloc_insert<flowstar::TaylorModel const&>(__gnu_cxx::__normal_iterator<flowstar::TaylorModel*, std::vector<flowstar::TaylorModel, std::allocator<flowstar::TaylorModel> > >, flowstar::TaylorModel const&)
+  [10] flowstar::Polynomial::operator+=(flowstar::Polynomial const&) [24] flowstar::Monomial::Monomial(flowstar::Monomial const&) [55] std::vector<flowstar::TaylorModel, std::allocator<flowstar::TaylorModel> >::vector(std::vector<flowstar::TaylorModel, std::allocator<flowstar::TaylorModel> > const&)
+  [41] flowstar::TaylorModel::add_assign(flowstar::TaylorModel const&) [18] flowstar::Monomial::~Monomial() [64] void std::vector<flowstar::LinearConstraint, std::allocator<flowstar::LinearConstraint> >::_M_realloc_insert<flowstar::LinearConstraint const&>(__gnu_cxx::__normal_iterator<flowstar::LinearConstraint*, std::vector<flowstar::LinearConstraint, std::allocator<flowstar::LinearConstraint> > >, flowstar::LinearConstraint const&)
+  [96] flowstar::TaylorModel::TaylorModel() [16] flowstar::Monomial::operator=(flowstar::Monomial const&) [70] void std::vector<flowstar::Interval, std::allocator<flowstar::Interval> >::_M_realloc_insert<flowstar::Interval const&>(__gnu_cxx::__normal_iterator<flowstar::Interval*, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > >, flowstar::Interval const&)
+  [54] flowstar::TaylorModel::TaylorModel(flowstar::Polynomial const&, flowstar::Interval const&) [37] flowstar::Monomial::operator*=(flowstar::Monomial const&) [123] void std::vector<flowstar::RowVector, std::allocator<flowstar::RowVector> >::_M_realloc_insert<flowstar::RowVector const&>(__gnu_cxx::__normal_iterator<flowstar::RowVector*, std::vector<flowstar::RowVector, std::allocator<flowstar::RowVector> > >, flowstar::RowVector const&)
+  [50] flowstar::TaylorModel::TaylorModel(flowstar::TaylorModel const&) [121] flowstar::upMatrix::upMatrix() [129] std::vector<flowstar::RowVector, std::allocator<flowstar::RowVector> >::insert(__gnu_cxx::__normal_iterator<flowstar::RowVector const*, std::vector<flowstar::RowVector, std::allocator<flowstar::RowVector> > >, flowstar::RowVector const&)
+  [40] flowstar::TaylorModel::~TaylorModel() [122] flowstar::upMatrix::~upMatrix() [109] void std::vector<std::string, std::allocator<std::string> >::_M_realloc_insert<std::string const&>(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, std::string const&)
+  [52] flowstar::TaylorModel::operator=(flowstar::TaylorModel const&) [153] flowstar::ColVector::ColVector(int) [124] std::vector<std::string, std::allocator<std::string> >::~vector()
+ [148] flowstar::HybridSystem::HybridSystem() [154] flowstar::ColVector::~ColVector() [42] void std::vector<std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >, std::allocator<std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> > > >::_M_realloc_insert<std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> > const&>(__gnu_cxx::__normal_iterator<std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >*, std::vector<std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> >, std::allocator<std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> > > > >, std::list<flowstar::Monomial, std::allocator<flowstar::Monomial> > const&)
+  [57] flowstar::HybridSystem::~HybridSystem() [107] flowstar::RowVector::RowVector(flowstar::RowVector const&) [98] void std::vector<double, std::allocator<double> >::_M_realloc_insert<double const&>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, double const&)
+ [113] flowstar::compareFactor(flowstar::FactorTab const&, flowstar::FactorTab const&) [155] flowstar::RowVector::RowVector(int) [87] void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&)
+ [130] flowstar::TaylorModelVec::clear() [106] flowstar::RowVector::~RowVector() [125] std::vector<int, std::allocator<int> >::push_back(int const&)
+ [102] flowstar::TaylorModelVec::TaylorModelVec(flowstar::TaylorModelVec const&) [118] flowstar::RowVector::operator=(flowstar::RowVector const&) [126] std::_Rb_tree<std::string, std::pair<std::string const, int>, std::_Select1st<std::pair<std::string const, int> >, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::_M_get_insert_unique_pos(std::string const&)
+ [101] flowstar::TaylorModelVec::TaylorModelVec() [30] flowstar::HornerForm::intEval(flowstar::Interval&, std::vector<flowstar::Interval, std::allocator<flowstar::Interval> > const&) const [110] std::_Rb_tree<std::string, std::pair<std::string const, int>, std::_Select1st<std::pair<std::string const, int> >, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::find(std::string const&)
+  [44] flowstar::TaylorModelVec::~TaylorModelVec() [7] flowstar::Polynomial::toHornerForm(flowstar::HornerForm&) const [108] std::_Rb_tree<std::string, std::pair<std::string const, int>, std::_Select1st<std::pair<std::string const, int> >, std::less<std::string>, std::allocator<std::pair<std::string const, int> > >::_M_erase(std::_Rb_tree_node<std::pair<std::string const, int> >*)
